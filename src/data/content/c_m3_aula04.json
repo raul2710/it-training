@@ -1,7 +1,7 @@
 {
   "id": "c_m3_aula04",
   "modulo": "Módulo 3 — Microsoft Excel",
-  "titulo": "Formatação Condicional",
+  "titulo": "Aula 04 — Formatação Condicional",
   "subtitulo": "Como usar regras para destacar automaticamente células com cores, ícones e barras de dados.",
   "tempo": 10,
   "secoes": [
@@ -24,9 +24,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Visualização", "descricao": "facilita ver padrões e tendências." },
-            { "titulo": "Profissionalismo", "descricao": "torna as planilhas mais organizadas." },
-            { "titulo": "Eficiência", "descricao": "evita ter que analisar cada célula." }
+            {
+              "titulo": "Visualização",
+              "descricao": "facilita ver padrões e tendências."
+            },
+            {
+              "titulo": "Profissionalismo",
+              "descricao": "torna as planilhas mais organizadas."
+            },
+            {
+              "titulo": "Eficiência",
+              "descricao": "evita ter que analisar cada célula."
+            }
           ]
         },
         {
@@ -41,9 +50,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Barras de dados", "descricao": "mostram a magnitude dos valores dentro da célula." },
-            { "titulo": "Escalas de cores", "descricao": "variam a cor conforme o valor." },
-            { "titulo": "Ícones", "descricao": "indicam status com setas, círculos e sinalizações." }
+            {
+              "titulo": "Barras de dados",
+              "descricao": "mostram a magnitude dos valores dentro da célula."
+            },
+            {
+              "titulo": "Escalas de cores",
+              "descricao": "variam a cor conforme o valor."
+            },
+            {
+              "titulo": "Ícones",
+              "descricao": "indicam status com setas, círculos e sinalizações."
+            }
           ]
         },
         {
@@ -58,9 +76,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o intervalo", "descricao": "de células que receberão a formatação." },
-            { "titulo": "Vá em Página Inicial", "descricao": "e clique em Formatação Condicional." },
-            { "titulo": "Escolha uma regra", "descricao": "pré-definida ou crie uma nova." }
+            {
+              "titulo": "Selecione o intervalo",
+              "descricao": "de células que receberão a formatação."
+            },
+            {
+              "titulo": "Vá em Página Inicial",
+              "descricao": "e clique em Formatação Condicional."
+            },
+            {
+              "titulo": "Escolha uma regra",
+              "descricao": "pré-definida ou crie uma nova."
+            }
           ]
         },
         {
@@ -96,9 +123,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Vendas", "descricao": "análise de desempenho da equipe." },
-            { "titulo": "Projetos", "descricao": "controle de prazos e status." },
-            { "titulo": "Finanças", "descricao": "identificação de valores fora do comum." }
+            {
+              "titulo": "Vendas",
+              "descricao": "análise de desempenho da equipe."
+            },
+            {
+              "titulo": "Projetos",
+              "descricao": "controle de prazos e status."
+            },
+            {
+              "titulo": "Finanças",
+              "descricao": "identificação de valores fora do comum."
+            }
           ]
         },
         {

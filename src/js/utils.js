@@ -32,13 +32,17 @@ export function getInitial(name) {
 
 /** Escapa caracteres especiais para uso seguro em HTML. */
 export function escapeHtml(value) {
-  return String(value ?? '').replace(/[&<>"']/g, (char) => ({
-    '&': '&amp;',
-    '<': '&lt;',
-    '>': '&gt;',
-    '"': '&quot;',
-    "'": '&#39;'
-  }[char]));
+  return String(value ?? '').replace(
+    /[&<>"']/g,
+    (char) =>
+      ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+      })[char]
+  );
 }
 
 /** Evita execuções repetidas de tarefas custosas (ex.: pesquisa). */
@@ -52,7 +56,7 @@ export function debounce(fn, wait = 200) {
 
 // ---------- Tema claro/escuro ----------
 
-const THEME_KEY = 'studyhub:theme';
+const THEME_KEY = 'it-training:theme';
 
 export function applyTheme(theme) {
   document.documentElement.dataset.theme = theme;
@@ -65,7 +69,8 @@ export function getTheme() {
 
 export function initTheme() {
   const stored = localStorage.getItem(THEME_KEY);
-  const theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  const theme =
+    stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
   applyTheme(theme);
 }
 
@@ -73,4 +78,42 @@ export function toggleTheme() {
   const next = getTheme() === 'dark' ? 'light' : 'dark';
   applyTheme(next);
   return next;
+}
+
+// ---------- Agrupamento por módulo ----------
+
+/** Extrai o número do módulo para ordenação ("Módulo 10" > "Módulo 2"). */
+export function moduleNumber(name) {
+  const match = String(name).match(/\d+/);
+  const number = match ? Number(match[0]) : NaN;
+  return Number.isNaN(number) ? Infinity : number;
+}
+
+/**
+ * Agrupa itens por módulo, ordenando módulos e itens internamente.
+ * @param {Array} items - Lista de itens com campo `modulo`.
+ * @param {string} nameKey - Chave do nome do grupo (padrão: 'modulo').
+ * @param {string} titleKey - Chave do título para ordenação interna (padrão: 'titulo').
+ * @param {string} itemsKey - Chave do array de itens no grupo retornado (padrão: 'items').
+ */
+export function groupByModule(
+  items,
+  { nameKey = 'modulo', titleKey = 'titulo', itemsKey = 'items' } = {}
+) {
+  const groups = new Map();
+
+  for (const item of items) {
+    const name = item[nameKey] || 'Módulo';
+    if (!groups.has(name)) groups.set(name, []);
+    groups.get(name).push(item);
+  }
+
+  return Array.from(groups.entries())
+    .map(([name, list]) => ({
+      name,
+      [itemsKey]: list.sort((a, b) =>
+        String(a[titleKey]).localeCompare(String(b[titleKey]), 'pt-BR', { numeric: true })
+      )
+    }))
+    .sort((a, b) => moduleNumber(a.name) - moduleNumber(b.name));
 }

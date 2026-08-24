@@ -1,7 +1,7 @@
 {
   "id": "c_m4_aula07",
   "modulo": "Módulo 4 — Microsoft PowerPoint",
-  "titulo": "Apresentação Multimídia",
+  "titulo": "Aula 07 — Apresentação Multimídia",
   "subtitulo": "Como inserir vídeos e áudios, configurar a reprodução e usar recursos avançados no PowerPoint.",
   "tempo": 10,
   "secoes": [
@@ -15,9 +15,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Engajar", "descricao": "conteúdo multimídia prende a atenção do público." },
-            { "titulo": "Explicar", "descricao": "conceitos complexos ficam mais fáceis de entender." },
-            { "titulo": "Atmosfera", "descricao": "trilhas sonoras criam o clima da apresentação." }
+            {
+              "titulo": "Engajar",
+              "descricao": "conteúdo multimídia prende a atenção do público."
+            },
+            {
+              "titulo": "Explicar",
+              "descricao": "conceitos complexos ficam mais fáceis de entender."
+            },
+            {
+              "titulo": "Atmosfera",
+              "descricao": "trilhas sonoras criam o clima da apresentação."
+            }
           ]
         },
         {
@@ -32,10 +41,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o slide", "descricao": "onde deseja inserir o vídeo." },
-            { "titulo": "Aba Inserir", "descricao": "clique no menu superior." },
-            { "titulo": "Escolha Vídeo", "descricao": "\"Vídeo no Meu Computador\" ou \"Vídeo Online\"." },
-            { "titulo": "Ajuste o vídeo", "descricao": "defina o tamanho e a posição no slide." }
+            {
+              "titulo": "Selecione o slide",
+              "descricao": "onde deseja inserir o vídeo."
+            },
+            {
+              "titulo": "Aba Inserir",
+              "descricao": "clique no menu superior."
+            },
+            {
+              "titulo": "Escolha Vídeo",
+              "descricao": "\"Vídeo no Meu Computador\" ou \"Vídeo Online\"."
+            },
+            {
+              "titulo": "Ajuste o vídeo",
+              "descricao": "defina o tamanho e a posição no slide."
+            }
           ]
         },
         {
@@ -50,10 +71,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o vídeo", "descricao": "e vá para a guia Reprodução." },
-            { "titulo": "Escolha o início", "descricao": "\"Automático\" ou \"Ao Clicar\"." },
-            { "titulo": "Tela inteira", "descricao": "marque \"Reproduzir em Tela Inteira\" se desejar." },
-            { "titulo": "Corte", "descricao": "use \"Cortar Vídeo\" para remover partes desnecessárias." }
+            {
+              "titulo": "Selecione o vídeo",
+              "descricao": "e vá para a guia Reprodução."
+            },
+            {
+              "titulo": "Escolha o início",
+              "descricao": "\"Automático\" ou \"Ao Clicar\"."
+            },
+            {
+              "titulo": "Tela inteira",
+              "descricao": "marque \"Reproduzir em Tela Inteira\" se desejar."
+            },
+            {
+              "titulo": "Corte",
+              "descricao": "use \"Cortar Vídeo\" para remover partes desnecessárias."
+            }
           ]
         },
         {
@@ -68,10 +101,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o slide", "descricao": "onde deseja inserir o áudio." },
-            { "titulo": "Aba Inserir", "descricao": "clique no menu superior." },
-            { "titulo": "Escolha Áudio", "descricao": "\"Áudio no Meu Computador\" ou \"Gravar Áudio\"." },
-            { "titulo": "Ajuste o ícone", "descricao": "defina tamanho e posição do ícone de áudio." }
+            {
+              "titulo": "Selecione o slide",
+              "descricao": "onde deseja inserir o áudio."
+            },
+            {
+              "titulo": "Aba Inserir",
+              "descricao": "clique no menu superior."
+            },
+            {
+              "titulo": "Escolha Áudio",
+              "descricao": "\"Áudio no Meu Computador\" ou \"Gravar Áudio\"."
+            },
+            {
+              "titulo": "Ajuste o ícone",
+              "descricao": "defina tamanho e posição do ícone de áudio."
+            }
           ]
         },
         {
@@ -86,10 +131,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Clique no ícone de áudio", "descricao": "e vá para a guia Reprodução." },
-            { "titulo": "Escolha o início", "descricao": "\"Automático\" ou \"Ao Clicar\"." },
-            { "titulo": "Em todos os slides", "descricao": "marque \"Reproduzir em Todas as Slides\" se quiser." },
-            { "titulo": "Corte", "descricao": "use \"Cortar Áudio\" para remover partes." }
+            {
+              "titulo": "Clique no ícone de áudio",
+              "descricao": "e vá para a guia Reprodução."
+            },
+            {
+              "titulo": "Escolha o início",
+              "descricao": "\"Automático\" ou \"Ao Clicar\"."
+            },
+            {
+              "titulo": "Em todos os slides",
+              "descricao": "marque \"Reproduzir em Todas as Slides\" se quiser."
+            },
+            {
+              "titulo": "Corte",
+              "descricao": "use \"Cortar Áudio\" para remover partes."
+            }
           ]
         },
         {
@@ -108,9 +165,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Sincronização", "descricao": "controle o timing com \"Iniciar com Anterior\" ou \"Após Anterior\"." },
-            { "titulo": "Efeitos", "descricao": "entrada e saída deixam a mídia mais fluida." },
-            { "titulo": "Gravação de Tela", "descricao": "Inserir > Mídia > Gravação de Tela para capturar a tela." }
+            {
+              "titulo": "Sincronização",
+              "descricao": "controle o timing com \"Iniciar com Anterior\" ou \"Após Anterior\"."
+            },
+            {
+              "titulo": "Efeitos",
+              "descricao": "entrada e saída deixam a mídia mais fluida."
+            },
+            {
+              "titulo": "Gravação de Tela",
+              "descricao": "Inserir > Mídia > Gravação de Tela para capturar a tela."
+            }
           ]
         },
         {

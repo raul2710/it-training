@@ -1,7 +1,7 @@
 {
   "id": "c_m1_aula04",
   "modulo": "Módulo 1 — Computadores e Segurança Digital",
-  "titulo": "Introdução às Configurações de Internet e Navegadores",
+  "titulo": "Aula 04 — Introdução às Configurações de Internet e Navegadores",
   "subtitulo": "Tipos de conexão, configurações dos navegadores, segurança na navegação e o modo privado.",
   "tempo": 10,
   "secoes": [
@@ -31,8 +31,14 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Wi-Fi", "descricao": "conexão sem fio, muito usada em casa e lugares públicos. Escolha uma rede segura (com senha)." },
-            { "titulo": "Cabo de rede (Ethernet)", "descricao": "conexão mais rápida e estável, pois usa um cabo físico. Ideal para jogar ou trabalhar com vídeos." }
+            {
+              "titulo": "Wi-Fi",
+              "descricao": "conexão sem fio, muito usada em casa e lugares públicos. Escolha uma rede segura (com senha)."
+            },
+            {
+              "titulo": "Cabo de rede (Ethernet)",
+              "descricao": "conexão mais rápida e estável, pois usa um cabo físico. Ideal para jogar ou trabalhar com vídeos."
+            }
           ]
         },
         {
@@ -60,8 +66,14 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Página inicial", "descricao": "o site que o navegador abre ao iniciar, como Google, Facebook ou uma página personalizada." },
-            { "titulo": "Histórico de navegação", "descricao": "o navegador armazena os sites visitados para facilitar o acesso posterior. Limpar o histórico aumenta a segurança e a velocidade." }
+            {
+              "titulo": "Página inicial",
+              "descricao": "o site que o navegador abre ao iniciar, como Google, Facebook ou uma página personalizada."
+            },
+            {
+              "titulo": "Histórico de navegação",
+              "descricao": "o navegador armazena os sites visitados para facilitar o acesso posterior. Limpar o histórico aumenta a segurança e a velocidade."
+            }
           ]
         },
         {
@@ -76,8 +88,14 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "HTTPS", "descricao": "o \"S\" no final significa que a conexão é segura. Sempre verifique antes de inserir dados pessoais." },
-            { "titulo": "Senhas fortes", "descricao": "use senhas fortes e únicas para cada site importante. Considere um gerenciador de senhas." }
+            {
+              "titulo": "HTTPS",
+              "descricao": "o \"S\" no final significa que a conexão é segura. Sempre verifique antes de inserir dados pessoais."
+            },
+            {
+              "titulo": "Senhas fortes",
+              "descricao": "use senhas fortes e únicas para cada site importante. Considere um gerenciador de senhas."
+            }
           ]
         },
         {
@@ -92,9 +110,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Verifique o Wi-Fi", "descricao": "confirme se o Wi-Fi está ligado." },
-            { "titulo": "Reinicie o roteador", "descricao": "reinicie o roteador ou modem." },
-            { "titulo": "Teste outro dispositivo", "descricao": "se o problema persistir, tente acessar de outro aparelho." }
+            {
+              "titulo": "Verifique o Wi-Fi",
+              "descricao": "confirme se o Wi-Fi está ligado."
+            },
+            {
+              "titulo": "Reinicie o roteador",
+              "descricao": "reinicie o roteador ou modem."
+            },
+            {
+              "titulo": "Teste outro dispositivo",
+              "descricao": "se o problema persistir, tente acessar de outro aparelho."
+            }
           ]
         },
         {

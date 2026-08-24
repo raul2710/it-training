@@ -1,7 +1,7 @@
 {
   "id": "c_m4_aula05",
   "modulo": "Módulo 4 — Microsoft PowerPoint",
-  "titulo": "Criando e Formatando uma Tabela",
+  "titulo": "Aula 05 — Criando e Formatando uma Tabela",
   "subtitulo": "Como inserir, formatar e organizar tabelas no PowerPoint para apresentar dados de forma clara.",
   "tempo": 10,
   "secoes": [
@@ -24,10 +24,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Aba Inserir", "descricao": "clique na guia Inserir." },
-            { "titulo": "Clique em Tabela", "descricao": "para abrir as opções." },
-            { "titulo": "Escolha linhas e colunas", "descricao": "a quantidade desejada." },
-            { "titulo": "Confirme", "descricao": "para inserir a tabela no slide." }
+            {
+              "titulo": "Aba Inserir",
+              "descricao": "clique na guia Inserir."
+            },
+            {
+              "titulo": "Clique em Tabela",
+              "descricao": "para abrir as opções."
+            },
+            {
+              "titulo": "Escolha linhas e colunas",
+              "descricao": "a quantidade desejada."
+            },
+            {
+              "titulo": "Confirme",
+              "descricao": "para inserir a tabela no slide."
+            }
           ]
         },
         {
@@ -42,10 +54,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Estilos de Tabela", "descricao": "aplica estilos prontos de cores e bordas." },
-            { "titulo": "Bordas", "descricao": "personaliza espessura, cor e estilo das bordas." },
-            { "titulo": "Preenchimento", "descricao": "altera a cor de fundo das células." },
-            { "titulo": "Alinhamento", "descricao": "ajusta o alinhamento do texto nas células." }
+            {
+              "titulo": "Estilos de Tabela",
+              "descricao": "aplica estilos prontos de cores e bordas."
+            },
+            {
+              "titulo": "Bordas",
+              "descricao": "personaliza espessura, cor e estilo das bordas."
+            },
+            {
+              "titulo": "Preenchimento",
+              "descricao": "altera a cor de fundo das células."
+            },
+            {
+              "titulo": "Alinhamento",
+              "descricao": "ajusta o alinhamento do texto nas células."
+            }
           ]
         },
         {
@@ -60,9 +84,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Clique com o botão direito", "descricao": "em uma célula da tabela." },
-            { "titulo": "Escolha Inserir", "descricao": "e selecione linhas acima/abaixo ou colunas à esquerda/direita." },
-            { "titulo": "Ou escolha Excluir", "descricao": "e selecione linhas ou colunas para remover." }
+            {
+              "titulo": "Clique com o botão direito",
+              "descricao": "em uma célula da tabela."
+            },
+            {
+              "titulo": "Escolha Inserir",
+              "descricao": "e selecione linhas acima/abaixo ou colunas à esquerda/direita."
+            },
+            {
+              "titulo": "Ou escolha Excluir",
+              "descricao": "e selecione linhas ou colunas para remover."
+            }
           ]
         },
         {
@@ -77,8 +110,14 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione as células", "descricao": "que deseja mesclar." },
-            { "titulo": "Aba Layout", "descricao": "clique em Mesclar Células." }
+            {
+              "titulo": "Selecione as células",
+              "descricao": "que deseja mesclar."
+            },
+            {
+              "titulo": "Aba Layout",
+              "descricao": "clique em Mesclar Células."
+            }
           ]
         },
         {
@@ -111,9 +150,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Clique na célula", "descricao": "e digite o conteúdo desejado." },
-            { "titulo": "Guia Página Inicial", "descricao": "altere fontes, tamanhos e cores do texto." },
-            { "titulo": "Estilos Rápidos", "descricao": "aplique formatação de texto pronta." }
+            {
+              "titulo": "Clique na célula",
+              "descricao": "e digite o conteúdo desejado."
+            },
+            {
+              "titulo": "Guia Página Inicial",
+              "descricao": "altere fontes, tamanhos e cores do texto."
+            },
+            {
+              "titulo": "Estilos Rápidos",
+              "descricao": "aplique formatação de texto pronta."
+            }
           ]
         }
       ]

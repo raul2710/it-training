@@ -19,23 +19,31 @@ function renderBlock(block) {
     case 'passos':
       return `
         <ol class="aula__steps">
-          ${block.itens.map((item, index) => `
+          ${block.itens
+            .map(
+              (item, index) => `
             <li class="aula__step">
               <span class="aula__step-num" aria-hidden="true">${index + 1}</span>
               <div class="aula__step-body">
                 <strong>${escapeHtml(item.titulo)}</strong>
                 <p>${escapeHtml(item.descricao)}</p>
               </div>
-            </li>`).join('')}
+            </li>`
+            )
+            .join('')}
         </ol>`;
     case 'cards':
       return `
         <div class="aula__cards">
-          ${block.itens.map((item) => `
+          ${block.itens
+            .map(
+              (item) => `
             <div class="aula__card">
               <strong class="aula__card-title">${escapeHtml(item.titulo)}</strong>
               <p class="aula__card-desc">${escapeHtml(item.descricao)}</p>
-            </div>`).join('')}
+            </div>`
+            )
+            .join('')}
         </div>`;
     default:
       return '';
@@ -81,7 +89,9 @@ export function aulaPage(params) {
     </header>
 
     <div class="aula__content">
-      ${aula.secoes.map((secao, index) => `
+      ${aula.secoes
+        .map(
+          (secao, index) => `
         <section class="aula__section card animate-up" id="secao-${index + 1}">
           <h2 class="aula__section-title">
             <span class="aula__section-num" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span>
@@ -90,7 +100,9 @@ export function aulaPage(params) {
           <div class="aula__blocks">
             ${secao.blocos.map(renderBlock).join('')}
           </div>
-        </section>`).join('')}
+        </section>`
+        )
+        .join('')}
     </div>
 
     <div class="aula__actions">

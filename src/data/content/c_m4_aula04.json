@@ -1,7 +1,7 @@
 {
   "id": "c_m4_aula04",
   "modulo": "Módulo 4 — Microsoft PowerPoint",
-  "titulo": "Transições e Animações",
+  "titulo": "Aula 04 — Transições e Animações",
   "subtitulo": "Como aplicar transições entre slides e animações em objetos para dar movimento à apresentação.",
   "tempo": 10,
   "secoes": [
@@ -15,8 +15,14 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Transições", "descricao": "efeito de mudança de um slide para o outro." },
-            { "titulo": "Animações", "descricao": "efeitos aplicados a objetos dentro do slide, como texto ou imagens." }
+            {
+              "titulo": "Transições",
+              "descricao": "efeito de mudança de um slide para o outro."
+            },
+            {
+              "titulo": "Animações",
+              "descricao": "efeitos aplicados a objetos dentro do slide, como texto ou imagens."
+            }
           ]
         },
         {
@@ -31,11 +37,26 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o slide", "descricao": "ao qual deseja aplicar a transição." },
-            { "titulo": "Aba Transições", "descricao": "abra a guia de transições." },
-            { "titulo": "Escolha um efeito", "descricao": "na galeria de opções." },
-            { "titulo": "Ajuste as configurações", "descricao": "como duração e efeitos adicionais." },
-            { "titulo": "Aplicar a Todos", "descricao": "para usar a mesma transição em todos os slides." }
+            {
+              "titulo": "Selecione o slide",
+              "descricao": "ao qual deseja aplicar a transição."
+            },
+            {
+              "titulo": "Aba Transições",
+              "descricao": "abra a guia de transições."
+            },
+            {
+              "titulo": "Escolha um efeito",
+              "descricao": "na galeria de opções."
+            },
+            {
+              "titulo": "Ajuste as configurações",
+              "descricao": "como duração e efeitos adicionais."
+            },
+            {
+              "titulo": "Aplicar a Todos",
+              "descricao": "para usar a mesma transição em todos os slides."
+            }
           ]
         },
         {
@@ -54,9 +75,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Duração", "descricao": "controle se a transição é mais lenta ou mais rápida." },
-            { "titulo": "Som", "descricao": "adicione sons durante a transição, usando-os com moderação." },
-            { "titulo": "Avançar Slide", "descricao": "após um tempo ou apenas com um clique." }
+            {
+              "titulo": "Duração",
+              "descricao": "controle se a transição é mais lenta ou mais rápida."
+            },
+            {
+              "titulo": "Som",
+              "descricao": "adicione sons durante a transição, usando-os com moderação."
+            },
+            {
+              "titulo": "Avançar Slide",
+              "descricao": "após um tempo ou apenas com um clique."
+            }
           ]
         },
         {
@@ -71,10 +101,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o objeto", "descricao": "texto, imagem ou gráfico que será animado." },
-            { "titulo": "Aba Animações", "descricao": "acesse a guia de animações." },
-            { "titulo": "Escolha o efeito", "descricao": "como \"Aparecer\" ou \"Deslizar para dentro\"." },
-            { "titulo": "Ajuste o gatilho", "descricao": "direção, velocidade e momento em que a animação ocorre." }
+            {
+              "titulo": "Selecione o objeto",
+              "descricao": "texto, imagem ou gráfico que será animado."
+            },
+            {
+              "titulo": "Aba Animações",
+              "descricao": "acesse a guia de animações."
+            },
+            {
+              "titulo": "Escolha o efeito",
+              "descricao": "como \"Aparecer\" ou \"Deslizar para dentro\"."
+            },
+            {
+              "titulo": "Ajuste o gatilho",
+              "descricao": "direção, velocidade e momento em que a animação ocorre."
+            }
           ]
         },
         {
@@ -89,10 +131,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Entrada", "descricao": "faz o objeto aparecer na tela, como \"Aparecer\" ou \"Deslizar\"." },
-            { "titulo": "Ênfase", "descricao": "aplicada quando o objeto já está visível, como \"Pulsar\" ou \"Girar\"." },
-            { "titulo": "Saída", "descricao": "faz o objeto sair da tela, como \"Desaparecer\" ou \"Mover\"." },
-            { "titulo": "Trajetória", "descricao": "move um objeto de um ponto a outro por um caminho." }
+            {
+              "titulo": "Entrada",
+              "descricao": "faz o objeto aparecer na tela, como \"Aparecer\" ou \"Deslizar\"."
+            },
+            {
+              "titulo": "Ênfase",
+              "descricao": "aplicada quando o objeto já está visível, como \"Pulsar\" ou \"Girar\"."
+            },
+            {
+              "titulo": "Saída",
+              "descricao": "faz o objeto sair da tela, como \"Desaparecer\" ou \"Mover\"."
+            },
+            {
+              "titulo": "Trajetória",
+              "descricao": "move um objeto de um ponto a outro por um caminho."
+            }
           ]
         },
         {
@@ -107,9 +161,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Iniciar", "descricao": "determina se a animação começa ao clicar, automaticamente ou após outra." },
-            { "titulo": "Duração", "descricao": "ajusta o tempo de cada animação." },
-            { "titulo": "Atraso", "descricao": "adianta ou retarda o início da animação." }
+            {
+              "titulo": "Iniciar",
+              "descricao": "determina se a animação começa ao clicar, automaticamente ou após outra."
+            },
+            {
+              "titulo": "Duração",
+              "descricao": "ajusta o tempo de cada animação."
+            },
+            {
+              "titulo": "Atraso",
+              "descricao": "adianta ou retarda o início da animação."
+            }
           ]
         },
         {

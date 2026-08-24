@@ -1,7 +1,7 @@
 {
   "id": "c_m2_aula01",
   "modulo": "Módulo 2 — Microsoft Word",
-  "titulo": "Introdução ao Microsoft Word",
+  "titulo": "Aula 01 — Introdução ao Microsoft Word",
   "subtitulo": "O que é o Word, sua interface, como criar e salvar documentos e as ferramentas básicas.",
   "tempo": 10,
   "secoes": [
@@ -24,10 +24,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Barra de Título", "descricao": "mostra o nome do documento." },
-            { "titulo": "Faixa de Opções", "descricao": "contém guias como Arquivo, Página Inicial e Inserir." },
-            { "titulo": "Painel de Documento", "descricao": "onde você escreve e edita o conteúdo." },
-            { "titulo": "Barra de Status", "descricao": "exibe informações como o número de páginas." }
+            {
+              "titulo": "Barra de Título",
+              "descricao": "mostra o nome do documento."
+            },
+            {
+              "titulo": "Faixa de Opções",
+              "descricao": "contém guias como Arquivo, Página Inicial e Inserir."
+            },
+            {
+              "titulo": "Painel de Documento",
+              "descricao": "onde você escreve e edita o conteúdo."
+            },
+            {
+              "titulo": "Barra de Status",
+              "descricao": "exibe informações como o número de páginas."
+            }
           ]
         },
         {
@@ -42,9 +54,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Abra o Microsoft Word", "descricao": "para iniciar o programa." },
-            { "titulo": "Clique em Arquivo > Novo", "descricao": "para abrir as opções de novo documento." },
-            { "titulo": "Escolha um modelo", "descricao": "ou selecione \"Documento em Branco\"." }
+            {
+              "titulo": "Abra o Microsoft Word",
+              "descricao": "para iniciar o programa."
+            },
+            {
+              "titulo": "Clique em Arquivo > Novo",
+              "descricao": "para abrir as opções de novo documento."
+            },
+            {
+              "titulo": "Escolha um modelo",
+              "descricao": "ou selecione \"Documento em Branco\"."
+            }
           ]
         },
         {
@@ -59,9 +80,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Clique em Arquivo > Salvar Como", "descricao": "para escolher onde salvar." },
-            { "titulo": "Escolha o local", "descricao": "onde deseja salvar o arquivo." },
-            { "titulo": "Nomeie o arquivo", "descricao": "e clique em Salvar." }
+            {
+              "titulo": "Clique em Arquivo > Salvar Como",
+              "descricao": "para escolher onde salvar."
+            },
+            {
+              "titulo": "Escolha o local",
+              "descricao": "onde deseja salvar o arquivo."
+            },
+            {
+              "titulo": "Nomeie o arquivo",
+              "descricao": "e clique em Salvar."
+            }
           ]
         },
         {
@@ -79,10 +109,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Copiar e Colar", "descricao": "Ctrl + C e Ctrl + V." },
-            { "titulo": "Desfazer e Refazer", "descricao": "Ctrl + Z e Ctrl + Y." },
-            { "titulo": "Imprimir", "descricao": "Ctrl + P." },
-            { "titulo": "Selecionar tudo", "descricao": "Ctrl + T." }
+            {
+              "titulo": "Copiar e Colar",
+              "descricao": "Ctrl + C e Ctrl + V."
+            },
+            {
+              "titulo": "Desfazer e Refazer",
+              "descricao": "Ctrl + Z e Ctrl + Y."
+            },
+            {
+              "titulo": "Imprimir",
+              "descricao": "Ctrl + P."
+            },
+            {
+              "titulo": "Selecionar tudo",
+              "descricao": "Ctrl + T."
+            }
           ]
         },
         {

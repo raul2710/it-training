@@ -1,7 +1,7 @@
 {
   "id": "c_m4_aula01",
   "modulo": "Módulo 4 — Microsoft PowerPoint",
-  "titulo": "Criando uma Apresentação Simples",
+  "titulo": "Aula 01 — Criando uma Apresentação Simples",
   "subtitulo": "O que é o PowerPoint, sua interface, como criar, salvar e compartilhar uma apresentação simples.",
   "tempo": 10,
   "secoes": [
@@ -24,9 +24,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Visual", "descricao": "apresenta informações de forma engajante e cheia de impacto." },
-            { "titulo": "Versátil", "descricao": "serve para aulas, palestras, reuniões e demonstrações." },
-            { "titulo": "Modelos", "descricao": "modelos prontos permitem criar apresentações rapidamente." }
+            {
+              "titulo": "Visual",
+              "descricao": "apresenta informações de forma engajante e cheia de impacto."
+            },
+            {
+              "titulo": "Versátil",
+              "descricao": "serve para aulas, palestras, reuniões e demonstrações."
+            },
+            {
+              "titulo": "Modelos",
+              "descricao": "modelos prontos permitem criar apresentações rapidamente."
+            }
           ]
         },
         {
@@ -41,10 +50,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Faixa de Opções", "descricao": "contém guias como Página Inicial, Inserir, Design e Animações." },
-            { "titulo": "Painel de Slides", "descricao": "mostra os slides em miniatura para facilitar a navegação." },
-            { "titulo": "Área de Trabalho", "descricao": "onde o slide atual é editado." },
-            { "titulo": "Barra de Status", "descricao": "exibe o número total de slides e informações do modo de exibição." }
+            {
+              "titulo": "Faixa de Opções",
+              "descricao": "contém guias como Página Inicial, Inserir, Design e Animações."
+            },
+            {
+              "titulo": "Painel de Slides",
+              "descricao": "mostra os slides em miniatura para facilitar a navegação."
+            },
+            {
+              "titulo": "Área de Trabalho",
+              "descricao": "onde o slide atual é editado."
+            },
+            {
+              "titulo": "Barra de Status",
+              "descricao": "exibe o número total de slides e informações do modo de exibição."
+            }
           ]
         },
         {
@@ -59,9 +80,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Abra o PowerPoint", "descricao": "para iniciar o programa." },
-            { "titulo": "Escolha Apresentação em Branco", "descricao": "ou selecione um modelo pré-definido." },
-            { "titulo": "Insira o título e o subtítulo", "descricao": "no primeiro slide da apresentação." }
+            {
+              "titulo": "Abra o PowerPoint",
+              "descricao": "para iniciar o programa."
+            },
+            {
+              "titulo": "Escolha Apresentação em Branco",
+              "descricao": "ou selecione um modelo pré-definido."
+            },
+            {
+              "titulo": "Insira o título e o subtítulo",
+              "descricao": "no primeiro slide da apresentação."
+            }
           ]
         },
         {
@@ -84,9 +114,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Clique em Arquivo > Salvar Como", "descricao": "para escolher o local do arquivo." },
-            { "titulo": "Escolha o local", "descricao": "OneDrive, PC ou outro destino." },
-            { "titulo": "Nomeie e salve", "descricao": "para finalizar." }
+            {
+              "titulo": "Clique em Arquivo > Salvar Como",
+              "descricao": "para escolher o local do arquivo."
+            },
+            {
+              "titulo": "Escolha o local",
+              "descricao": "OneDrive, PC ou outro destino."
+            },
+            {
+              "titulo": "Nomeie e salve",
+              "descricao": "para finalizar."
+            }
           ]
         },
         {
@@ -105,10 +144,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Ctrl + C / V", "descricao": "copiar e colar conteúdo." },
-            { "titulo": "Ctrl + D", "descricao": "duplica slides ou objetos." },
-            { "titulo": "Ctrl + M", "descricao": "cria um novo slide." },
-            { "titulo": "Modo de Apresentação", "descricao": "revisa o conteúdo antes de exibir." }
+            {
+              "titulo": "Ctrl + C / V",
+              "descricao": "copiar e colar conteúdo."
+            },
+            {
+              "titulo": "Ctrl + D",
+              "descricao": "duplica slides ou objetos."
+            },
+            {
+              "titulo": "Ctrl + M",
+              "descricao": "cria um novo slide."
+            },
+            {
+              "titulo": "Modo de Apresentação",
+              "descricao": "revisa o conteúdo antes de exibir."
+            }
           ]
         },
         {

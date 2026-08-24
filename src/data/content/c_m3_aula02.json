@@ -1,7 +1,7 @@
 {
   "id": "c_m3_aula02",
   "modulo": "Módulo 3 — Microsoft Excel",
-  "titulo": "Inserindo e Formatando Dados",
+  "titulo": "Aula 02 — Inserindo e Formatando Dados",
   "subtitulo": "Como inserir dados, escolher os tipos corretos e formatar células para deixar a planilha profissional.",
   "tempo": 10,
   "secoes": [
@@ -15,10 +15,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Texto", "descricao": "palavras e frases, como nomes e endereços." },
-            { "titulo": "Número", "descricao": "valores numéricos usados em cálculos." },
-            { "titulo": "Data e hora", "descricao": "datas e horários reconhecidos pelo programa." },
-            { "titulo": "Moeda", "descricao": "valores com o símbolo de dinheiro, como R$." }
+            {
+              "titulo": "Texto",
+              "descricao": "palavras e frases, como nomes e endereços."
+            },
+            {
+              "titulo": "Número",
+              "descricao": "valores numéricos usados em cálculos."
+            },
+            {
+              "titulo": "Data e hora",
+              "descricao": "datas e horários reconhecidos pelo programa."
+            },
+            {
+              "titulo": "Moeda",
+              "descricao": "valores com o símbolo de dinheiro, como R$."
+            }
           ]
         },
         {
@@ -33,9 +45,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione a célula", "descricao": "onde deseja inserir o dado." },
-            { "titulo": "Digite o valor", "descricao": "e pressione Enter para confirmar." },
-            { "titulo": "Preencha as demais células", "descricao": "repita o processo para completar sua tabela." }
+            {
+              "titulo": "Selecione a célula",
+              "descricao": "onde deseja inserir o dado."
+            },
+            {
+              "titulo": "Digite o valor",
+              "descricao": "e pressione Enter para confirmar."
+            },
+            {
+              "titulo": "Preencha as demais células",
+              "descricao": "repita o processo para completar sua tabela."
+            }
           ]
         },
         {
@@ -62,9 +83,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione as células", "descricao": "que deseja formatar." },
-            { "titulo": "Abra Formatar Células", "descricao": "com o botão direito ou pelo atalho Ctrl + 1." },
-            { "titulo": "Escolha as opções", "descricao": "fonte, borda, preenchimento, alinhamento e número." }
+            {
+              "titulo": "Selecione as células",
+              "descricao": "que deseja formatar."
+            },
+            {
+              "titulo": "Abra Formatar Células",
+              "descricao": "com o botão direito ou pelo atalho Ctrl + 1."
+            },
+            {
+              "titulo": "Escolha as opções",
+              "descricao": "fonte, borda, preenchimento, alinhamento e número."
+            }
           ]
         },
         {
@@ -79,10 +109,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Cabeçalho", "descricao": "destaque a primeira linha com negrito e cor." },
-            { "titulo": "Bordas", "descricao": "use linhas para separar os dados." },
-            { "titulo": "Preenchimento", "descricao": "pinte células para destacar informações." },
-            { "titulo": "Alinhamento", "descricao": "alinhe os números à direita e os textos à esquerda." }
+            {
+              "titulo": "Cabeçalho",
+              "descricao": "destaque a primeira linha com negrito e cor."
+            },
+            {
+              "titulo": "Bordas",
+              "descricao": "use linhas para separar os dados."
+            },
+            {
+              "titulo": "Preenchimento",
+              "descricao": "pinte células para destacar informações."
+            },
+            {
+              "titulo": "Alinhamento",
+              "descricao": "alinhe os números à direita e os textos à esquerda."
+            }
           ]
         },
         {

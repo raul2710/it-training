@@ -1,7 +1,7 @@
 {
   "id": "c_m2_aula06",
   "modulo": "Módulo 2 — Microsoft Word",
-  "titulo": "Inserindo Links e Hiperlinks",
+  "titulo": "Aula 06 — Inserindo Links e Hiperlinks",
   "subtitulo": "Criar hiperlinks para páginas web, e-mails, arquivos e seções internas do documento.",
   "tempo": 10,
   "secoes": [
@@ -11,8 +11,14 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Link", "descricao": "um endereço que direciona para uma página da web, e-mail ou arquivo." },
-            { "titulo": "Hiperlink", "descricao": "um texto ou imagem clicável que contém um link embutido." }
+            {
+              "titulo": "Link",
+              "descricao": "um endereço que direciona para uma página da web, e-mail ou arquivo."
+            },
+            {
+              "titulo": "Hiperlink",
+              "descricao": "um texto ou imagem clicável que contém um link embutido."
+            }
           ]
         },
         {
@@ -27,10 +33,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Páginas da web", "descricao": "direcionam para sites externos." },
-            { "titulo": "E-mails", "descricao": "abrem o cliente de e-mail com destinatário pré-definido." },
-            { "titulo": "Documentos internos", "descricao": "direcionam para seções, páginas ou arquivos dentro do documento." },
-            { "titulo": "Arquivos locais", "descricao": "abrem arquivos salvos no computador." }
+            {
+              "titulo": "Páginas da web",
+              "descricao": "direcionam para sites externos."
+            },
+            {
+              "titulo": "E-mails",
+              "descricao": "abrem o cliente de e-mail com destinatário pré-definido."
+            },
+            {
+              "titulo": "Documentos internos",
+              "descricao": "direcionam para seções, páginas ou arquivos dentro do documento."
+            },
+            {
+              "titulo": "Arquivos locais",
+              "descricao": "abrem arquivos salvos no computador."
+            }
           ]
         }
       ]
@@ -41,10 +59,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o texto ou imagem", "descricao": "que deseja transformar em hiperlink." },
-            { "titulo": "Na guia Inserir", "descricao": "clique em Link (ou use o atalho Ctrl + K)." },
-            { "titulo": "No campo Endereço", "descricao": "insira o URL, e-mail ou caminho do arquivo." },
-            { "titulo": "Clique em OK", "descricao": "para criar o hiperlink." }
+            {
+              "titulo": "Selecione o texto ou imagem",
+              "descricao": "que deseja transformar em hiperlink."
+            },
+            {
+              "titulo": "Na guia Inserir",
+              "descricao": "clique em Link (ou use o atalho Ctrl + K)."
+            },
+            {
+              "titulo": "No campo Endereço",
+              "descricao": "insira o URL, e-mail ou caminho do arquivo."
+            },
+            {
+              "titulo": "Clique em OK",
+              "descricao": "para criar o hiperlink."
+            }
           ]
         },
         {
@@ -59,10 +89,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o texto ou imagem", "descricao": "que deseja transformar." },
-            { "titulo": "Clique em Link", "descricao": "ou use o atalho Ctrl + K." },
-            { "titulo": "Digite mailto:", "descricao": "seguido do e-mail (ex.: mailto:contato@exemplo.com)." },
-            { "titulo": "Clique em OK", "descricao": "para confirmar." }
+            {
+              "titulo": "Selecione o texto ou imagem",
+              "descricao": "que deseja transformar."
+            },
+            {
+              "titulo": "Clique em Link",
+              "descricao": "ou use o atalho Ctrl + K."
+            },
+            {
+              "titulo": "Digite mailto:",
+              "descricao": "seguido do e-mail (ex.: mailto:contato@exemplo.com)."
+            },
+            {
+              "titulo": "Clique em OK",
+              "descricao": "para confirmar."
+            }
           ]
         },
         {
@@ -77,11 +119,26 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Insira um marcador ou título", "descricao": "no local do documento que deseja vincular." },
-            { "titulo": "Selecione o texto ou imagem", "descricao": "para o hiperlink." },
-            { "titulo": "Clique em Link", "descricao": "ou use Ctrl + K." },
-            { "titulo": "Escolha Colocar neste documento", "descricao": "e selecione o marcador ou título." },
-            { "titulo": "Clique em OK", "descricao": "para concluir." }
+            {
+              "titulo": "Insira um marcador ou título",
+              "descricao": "no local do documento que deseja vincular."
+            },
+            {
+              "titulo": "Selecione o texto ou imagem",
+              "descricao": "para o hiperlink."
+            },
+            {
+              "titulo": "Clique em Link",
+              "descricao": "ou use Ctrl + K."
+            },
+            {
+              "titulo": "Escolha Colocar neste documento",
+              "descricao": "e selecione o marcador ou título."
+            },
+            {
+              "titulo": "Clique em OK",
+              "descricao": "para concluir."
+            }
           ]
         },
         {
@@ -96,10 +153,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o texto ou imagem", "descricao": "para o hiperlink." },
-            { "titulo": "Clique em Link", "descricao": "ou use Ctrl + K." },
-            { "titulo": "No campo Endereço", "descricao": "insira o caminho do arquivo ou use o botão Procurar." },
-            { "titulo": "Clique em OK", "descricao": "para concluir." }
+            {
+              "titulo": "Selecione o texto ou imagem",
+              "descricao": "para o hiperlink."
+            },
+            {
+              "titulo": "Clique em Link",
+              "descricao": "ou use Ctrl + K."
+            },
+            {
+              "titulo": "No campo Endereço",
+              "descricao": "insira o caminho do arquivo ou use o botão Procurar."
+            },
+            {
+              "titulo": "Clique em OK",
+              "descricao": "para concluir."
+            }
           ]
         },
         {

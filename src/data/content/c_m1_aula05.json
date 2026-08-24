@@ -1,7 +1,7 @@
 {
   "id": "c_m1_aula05",
   "modulo": "Módulo 1 — Computadores e Segurança Digital",
-  "titulo": "Pastas e Arquivos",
+  "titulo": "Aula 05 — Pastas e Arquivos",
   "subtitulo": "Como gerenciar, criar e organizar seus arquivos no computador.",
   "tempo": 10,
   "secoes": [
@@ -15,10 +15,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Documentos", "descricao": ".docx, .pdf" },
-            { "titulo": "Imagens", "descricao": ".jpg, .png" },
-            { "titulo": "Áudio", "descricao": ".mp3, .wav" },
-            { "titulo": "Vídeos", "descricao": ".mp4, .avi" }
+            {
+              "titulo": "Documentos",
+              "descricao": ".docx, .pdf"
+            },
+            {
+              "titulo": "Imagens",
+              "descricao": ".jpg, .png"
+            },
+            {
+              "titulo": "Áudio",
+              "descricao": ".mp3, .wav"
+            },
+            {
+              "titulo": "Vídeos",
+              "descricao": ".mp4, .avi"
+            }
           ]
         }
       ]
@@ -45,8 +57,14 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Arquivo", "descricao": "guarda um conteúdo específico (documento, foto, vídeo)." },
-            { "titulo": "Pasta", "descricao": "armazena e organiza vários arquivos e subpastas." }
+            {
+              "titulo": "Arquivo",
+              "descricao": "guarda um conteúdo específico (documento, foto, vídeo)."
+            },
+            {
+              "titulo": "Pasta",
+              "descricao": "armazena e organiza vários arquivos e subpastas."
+            }
           ]
         }
       ]
@@ -57,9 +75,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Clique com o botão direito", "descricao": "na área desejada." },
-            { "titulo": "Escolha a opção", "descricao": "\"Novo\" → \"Pasta\"." },
-            { "titulo": "Renomeie", "descricao": "a pasta para identificá-la." }
+            {
+              "titulo": "Clique com o botão direito",
+              "descricao": "na área desejada."
+            },
+            {
+              "titulo": "Escolha a opção",
+              "descricao": "\"Novo\" → \"Pasta\"."
+            },
+            {
+              "titulo": "Renomeie",
+              "descricao": "a pasta para identificá-la."
+            }
           ]
         }
       ]
@@ -70,9 +97,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Clique com o botão direito", "descricao": "no arquivo ou pasta." },
-            { "titulo": "Selecione Renomear", "descricao": "a opção \"Renomear\"." },
-            { "titulo": "Digite o novo nome", "descricao": "e pressione Enter." }
+            {
+              "titulo": "Clique com o botão direito",
+              "descricao": "no arquivo ou pasta."
+            },
+            {
+              "titulo": "Selecione Renomear",
+              "descricao": "a opção \"Renomear\"."
+            },
+            {
+              "titulo": "Digite o novo nome",
+              "descricao": "e pressione Enter."
+            }
           ]
         },
         {
@@ -91,11 +127,26 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": ".docx", "descricao": "documento de texto (Word)." },
-            { "titulo": ".pdf", "descricao": "documento portátil." },
-            { "titulo": ".jpg / .png", "descricao": "imagens." },
-            { "titulo": ".mp3 / .wav", "descricao": "áudio." },
-            { "titulo": ".mp4 / .avi", "descricao": "vídeos." }
+            {
+              "titulo": ".docx",
+              "descricao": "documento de texto (Word)."
+            },
+            {
+              "titulo": ".pdf",
+              "descricao": "documento portátil."
+            },
+            {
+              "titulo": ".jpg / .png",
+              "descricao": "imagens."
+            },
+            {
+              "titulo": ".mp3 / .wav",
+              "descricao": "áudio."
+            },
+            {
+              "titulo": ".mp4 / .avi",
+              "descricao": "vídeos."
+            }
           ]
         }
       ]
@@ -119,9 +170,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Clique com o botão direito", "descricao": "no arquivo desejado." },
-            { "titulo": "Escolha Recortar ou Copiar", "descricao": "a opção \"Recortar\" ou \"Copiar\"." },
-            { "titulo": "Vá até a pasta de destino", "descricao": "e selecione \"Colar\"." }
+            {
+              "titulo": "Clique com o botão direito",
+              "descricao": "no arquivo desejado."
+            },
+            {
+              "titulo": "Escolha Recortar ou Copiar",
+              "descricao": "a opção \"Recortar\" ou \"Copiar\"."
+            },
+            {
+              "titulo": "Vá até a pasta de destino",
+              "descricao": "e selecione \"Colar\"."
+            }
           ]
         }
       ]
@@ -132,9 +192,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Clique com o botão direito", "descricao": "no arquivo ou pasta." },
-            { "titulo": "Selecione Excluir", "descricao": "a opção \"Excluir\"." },
-            { "titulo": "Vai para a Lixeira", "descricao": "o item será enviado para a Lixeira." }
+            {
+              "titulo": "Clique com o botão direito",
+              "descricao": "no arquivo ou pasta."
+            },
+            {
+              "titulo": "Selecione Excluir",
+              "descricao": "a opção \"Excluir\"."
+            },
+            {
+              "titulo": "Vai para a Lixeira",
+              "descricao": "o item será enviado para a Lixeira."
+            }
           ]
         },
         {

@@ -1,7 +1,7 @@
 {
   "id": "c_m5_aula02",
   "modulo": "Módulo 5 — Computação em Nuvem e IA",
-  "titulo": "Introdução à Inteligência Artificial: Uma Nova Era",
+  "titulo": "Aula 02 — Introdução à Inteligência Artificial: Uma Nova Era",
   "subtitulo": "O que é IA, seus pilares, aplicações no dia a dia e os desafios éticos.",
   "tempo": 10,
   "secoes": [
@@ -28,9 +28,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Aprendizado de Máquina (Machine Learning)", "descricao": "Algoritmos aprendem padrões em grandes volumes de dados. A Netflix prevê filmes com ~93% de acurácia pelas preferências do usuário." },
-            { "titulo": "Aprendizado Profundo (Deep Learning)", "descricao": "Usa redes neurais complexas inspiradas no cérebro. O reconhecimento facial da Meta atinge 97% de precisão." },
-            { "titulo": "PLN (Linguagem Natural)", "descricao": "Máquinas entendem e geram texto/voz. O Google Translate chega a 98% de precisão." }
+            {
+              "titulo": "Aprendizado de Máquina (Machine Learning)",
+              "descricao": "Algoritmos aprendem padrões em grandes volumes de dados. A Netflix prevê filmes com ~93% de acurácia pelas preferências do usuário."
+            },
+            {
+              "titulo": "Aprendizado Profundo (Deep Learning)",
+              "descricao": "Usa redes neurais complexas inspiradas no cérebro. O reconhecimento facial da Meta atinge 97% de precisão."
+            },
+            {
+              "titulo": "PLN (Linguagem Natural)",
+              "descricao": "Máquinas entendem e geram texto/voz. O Google Translate chega a 98% de precisão."
+            }
           ]
         }
       ]
@@ -41,10 +50,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Assistentes virtuais", "descricao": "Siri, Alexa e Google Assistant, usados por metade dos usuários globais." },
-            { "titulo": "Recomendações", "descricao": "Amazon, Spotify e YouTube recomendam conteúdo aumentando o engajamento em até 30%." },
-            { "titulo": "Mapas", "descricao": "Google Maps e Waze otimizam rotas em tempo real." },
-            { "titulo": "Segurança", "descricao": "IA detecta 99,9% dos e-mails maliciosos." }
+            {
+              "titulo": "Assistentes virtuais",
+              "descricao": "Siri, Alexa e Google Assistant, usados por metade dos usuários globais."
+            },
+            {
+              "titulo": "Recomendações",
+              "descricao": "Amazon, Spotify e YouTube recomendam conteúdo aumentando o engajamento em até 30%."
+            },
+            {
+              "titulo": "Mapas",
+              "descricao": "Google Maps e Waze otimizam rotas em tempo real."
+            },
+            {
+              "titulo": "Segurança",
+              "descricao": "IA detecta 99,9% dos e-mails maliciosos."
+            }
           ]
         }
       ]
@@ -68,11 +89,26 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Google AI", "descricao": "TensorFlow (código aberto) e Google Cloud AI Platform." },
-            { "titulo": "AWS", "descricao": "Amazon SageMaker para treinar modelos e Rekognition para imagem/vídeo." },
-            { "titulo": "Microsoft Azure AI", "descricao": "Azure Machine Learning e Cognitive Services (visão, fala, linguagem)." },
-            { "titulo": "OpenAI", "descricao": "ChatGPT (linguagem) e DALL-E (geração de imagens)." },
-            { "titulo": "Hugging Face", "descricao": "Plataforma open-source com mais de 100 mil modelos de PLN." }
+            {
+              "titulo": "Google AI",
+              "descricao": "TensorFlow (código aberto) e Google Cloud AI Platform."
+            },
+            {
+              "titulo": "AWS",
+              "descricao": "Amazon SageMaker para treinar modelos e Rekognition para imagem/vídeo."
+            },
+            {
+              "titulo": "Microsoft Azure AI",
+              "descricao": "Azure Machine Learning e Cognitive Services (visão, fala, linguagem)."
+            },
+            {
+              "titulo": "OpenAI",
+              "descricao": "ChatGPT (linguagem) e DALL-E (geração de imagens)."
+            },
+            {
+              "titulo": "Hugging Face",
+              "descricao": "Plataforma open-source com mais de 100 mil modelos de PLN."
+            }
           ]
         }
       ]
@@ -111,10 +147,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "IA generativa", "descricao": "Cria conteúdo original (texto, imagem e música) de forma autônoma." },
-            { "titulo": "XAI (IA explicável)", "descricao": "Foco em entender como os modelos tomam decisões, aumentando a transparência." },
-            { "titulo": "Nuvem e edge computing", "descricao": "Processamento mais rápido e distribuído para IA em tempo real." },
-            { "titulo": "AGI", "descricao": "IA de inteligência humana completa, ainda em desenvolvimento." }
+            {
+              "titulo": "IA generativa",
+              "descricao": "Cria conteúdo original (texto, imagem e música) de forma autônoma."
+            },
+            {
+              "titulo": "XAI (IA explicável)",
+              "descricao": "Foco em entender como os modelos tomam decisões, aumentando a transparência."
+            },
+            {
+              "titulo": "Nuvem e edge computing",
+              "descricao": "Processamento mais rápido e distribuído para IA em tempo real."
+            },
+            {
+              "titulo": "AGI",
+              "descricao": "IA de inteligência humana completa, ainda em desenvolvimento."
+            }
           ]
         }
       ]

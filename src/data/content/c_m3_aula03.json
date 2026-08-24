@@ -1,7 +1,7 @@
 {
   "id": "c_m3_aula03",
   "modulo": "Módulo 3 — Microsoft Excel",
-  "titulo": "Funções Básicas",
+  "titulo": "Aula 03 — Funções Básicas",
   "subtitulo": "Como criar fórmulas e usar as funções SOMA, MÉDIA, MÁXIMO e MÍNIMO para calcular no Excel.",
   "tempo": 10,
   "secoes": [
@@ -24,10 +24,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione a célula", "descricao": "onde o resultado deve aparecer." },
-            { "titulo": "Digite =", "descricao": "para iniciar a fórmula." },
-            { "titulo": "Selecione as células", "descricao": "o intervalo que participa do cálculo." },
-            { "titulo": "Pressione Enter", "descricao": "para ver o resultado." }
+            {
+              "titulo": "Selecione a célula",
+              "descricao": "onde o resultado deve aparecer."
+            },
+            {
+              "titulo": "Digite =",
+              "descricao": "para iniciar a fórmula."
+            },
+            {
+              "titulo": "Selecione as células",
+              "descricao": "o intervalo que participa do cálculo."
+            },
+            {
+              "titulo": "Pressione Enter",
+              "descricao": "para ver o resultado."
+            }
           ]
         },
         {
@@ -50,9 +62,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Relativa", "descricao": "como A1, ajusta-se ao copiar para outras células." },
-            { "titulo": "Absoluta", "descricao": "como $A$1, fica fixa ao copiar." },
-            { "titulo": "Mista", "descricao": "como $A1 ou A$1, fixa apenas a coluna ou a linha." }
+            {
+              "titulo": "Relativa",
+              "descricao": "como A1, ajusta-se ao copiar para outras células."
+            },
+            {
+              "titulo": "Absoluta",
+              "descricao": "como $A$1, fica fixa ao copiar."
+            },
+            {
+              "titulo": "Mista",
+              "descricao": "como $A1 ou A$1, fixa apenas a coluna ou a linha."
+            }
           ]
         },
         {
@@ -101,8 +122,14 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "MÁXIMO", "descricao": "retorna o maior valor do intervalo." },
-            { "titulo": "MÍNIMO", "descricao": "retorna o menor valor do intervalo." }
+            {
+              "titulo": "MÁXIMO",
+              "descricao": "retorna o maior valor do intervalo."
+            },
+            {
+              "titulo": "MÍNIMO",
+              "descricao": "retorna o menor valor do intervalo."
+            }
           ]
         },
         {

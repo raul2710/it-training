@@ -1,7 +1,7 @@
 {
   "id": "c_m3_aula06",
   "modulo": "Módulo 3 — Microsoft Excel",
-  "titulo": "Gráficos no Excel",
+  "titulo": "Aula 06 — Gráficos no Excel",
   "subtitulo": "Por que usar gráficos, os principais tipos, como criá-los passo a passo e dicas de formatação.",
   "tempo": 10,
   "secoes": [
@@ -29,11 +29,26 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Colunas/Barras", "descricao": "comparação entre categorias." },
-            { "titulo": "Linhas", "descricao": "tendência ao longo do tempo." },
-            { "titulo": "Pizza", "descricao": "proporções de um todo." },
-            { "titulo": "Área", "descricao": "dados cumulativos ao longo do tempo." },
-            { "titulo": "Dispersão (XY)", "descricao": "relação entre duas variáveis." }
+            {
+              "titulo": "Colunas/Barras",
+              "descricao": "comparação entre categorias."
+            },
+            {
+              "titulo": "Linhas",
+              "descricao": "tendência ao longo do tempo."
+            },
+            {
+              "titulo": "Pizza",
+              "descricao": "proporções de um todo."
+            },
+            {
+              "titulo": "Área",
+              "descricao": "dados cumulativos ao longo do tempo."
+            },
+            {
+              "titulo": "Dispersão (XY)",
+              "descricao": "relação entre duas variáveis."
+            }
           ]
         },
         {
@@ -48,10 +63,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione os dados", "descricao": "a tabela com os valores a representar." },
-            { "titulo": "Clique em Inserir", "descricao": "e procure as opções de gráficos." },
-            { "titulo": "Escolha o tipo", "descricao": "por exemplo, gráfico de colunas." },
-            { "titulo": "Ajuste o gráfico", "descricao": "gerado automaticamente com botão de opções." }
+            {
+              "titulo": "Selecione os dados",
+              "descricao": "a tabela com os valores a representar."
+            },
+            {
+              "titulo": "Clique em Inserir",
+              "descricao": "e procure as opções de gráficos."
+            },
+            {
+              "titulo": "Escolha o tipo",
+              "descricao": "por exemplo, gráfico de colunas."
+            },
+            {
+              "titulo": "Ajuste o gráfico",
+              "descricao": "gerado automaticamente com botão de opções."
+            }
           ]
         },
         {
@@ -84,10 +111,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Cores contrastantes", "descricao": "melhoram a visualização." },
-            { "titulo": "Menos é mais", "descricao": "evite poluição visual." },
-            { "titulo": "Rótulos", "descricao": "esclarecem os dados importantes." },
-            { "titulo": "Exportar", "descricao": "use o gráfico em outros programas." }
+            {
+              "titulo": "Cores contrastantes",
+              "descricao": "melhoram a visualização."
+            },
+            {
+              "titulo": "Menos é mais",
+              "descricao": "evite poluição visual."
+            },
+            {
+              "titulo": "Rótulos",
+              "descricao": "esclarecem os dados importantes."
+            },
+            {
+              "titulo": "Exportar",
+              "descricao": "use o gráfico em outros programas."
+            }
           ]
         },
         {

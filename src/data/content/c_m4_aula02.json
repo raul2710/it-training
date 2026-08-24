@@ -1,7 +1,7 @@
 {
   "id": "c_m4_aula02",
   "modulo": "Módulo 4 — Microsoft PowerPoint",
-  "titulo": "Formatação de Texto",
+  "titulo": "Aula 02 — Formatação de Texto",
   "subtitulo": "Como inserir caixas de texto, formatar fontes, usar alinhamentos e aplicar efeitos no PowerPoint.",
   "tempo": 10,
   "secoes": [
@@ -36,10 +36,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Clique em Inserir", "descricao": "na barra de ferramentas." },
-            { "titulo": "Escolha Caixa de Texto", "descricao": "no menu de opções." },
-            { "titulo": "Clique e arraste", "descricao": "para criar a caixa onde o texto aparecerá." },
-            { "titulo": "Digite o conteúdo", "descricao": "no slide." }
+            {
+              "titulo": "Clique em Inserir",
+              "descricao": "na barra de ferramentas."
+            },
+            {
+              "titulo": "Escolha Caixa de Texto",
+              "descricao": "no menu de opções."
+            },
+            {
+              "titulo": "Clique e arraste",
+              "descricao": "para criar a caixa onde o texto aparecerá."
+            },
+            {
+              "titulo": "Digite o conteúdo",
+              "descricao": "no slide."
+            }
           ]
         },
         {
@@ -54,9 +66,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o texto", "descricao": "que deseja formatar." },
-            { "titulo": "Página Inicial", "descricao": "use as opções de fonte para mudar estilo e tamanho." },
-            { "titulo": "Altere a cor", "descricao": "para ajustar o texto conforme necessário." }
+            {
+              "titulo": "Selecione o texto",
+              "descricao": "que deseja formatar."
+            },
+            {
+              "titulo": "Página Inicial",
+              "descricao": "use as opções de fonte para mudar estilo e tamanho."
+            },
+            {
+              "titulo": "Altere a cor",
+              "descricao": "para ajustar o texto conforme necessário."
+            }
           ]
         },
         {
@@ -82,10 +103,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Esquerda", "descricao": "ideal para listas e textos explicativos." },
-            { "titulo": "Centralizada", "descricao": "melhor para títulos e cabeçalhos." },
-            { "titulo": "Direita", "descricao": "usado com menos frequência, mas útil em alguns casos." },
-            { "titulo": "Justificada", "descricao": "distribui o texto entre as margens esquerda e direita." }
+            {
+              "titulo": "Esquerda",
+              "descricao": "ideal para listas e textos explicativos."
+            },
+            {
+              "titulo": "Centralizada",
+              "descricao": "melhor para títulos e cabeçalhos."
+            },
+            {
+              "titulo": "Direita",
+              "descricao": "usado com menos frequência, mas útil em alguns casos."
+            },
+            {
+              "titulo": "Justificada",
+              "descricao": "distribui o texto entre as margens esquerda e direita."
+            }
           ]
         },
         {
@@ -100,9 +133,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o texto", "descricao": "que receberá o efeito." },
-            { "titulo": "Abra a aba Formato de Forma", "descricao": "para escolher as opções." },
-            { "titulo": "Escolha o efeito", "descricao": "de preenchimento, contorno ou efeitos especiais." }
+            {
+              "titulo": "Selecione o texto",
+              "descricao": "que receberá o efeito."
+            },
+            {
+              "titulo": "Abra a aba Formato de Forma",
+              "descricao": "para escolher as opções."
+            },
+            {
+              "titulo": "Escolha o efeito",
+              "descricao": "de preenchimento, contorno ou efeitos especiais."
+            }
           ]
         },
         {

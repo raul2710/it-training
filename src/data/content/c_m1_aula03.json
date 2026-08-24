@@ -1,7 +1,7 @@
 {
   "id": "c_m1_aula03",
   "modulo": "Módulo 1 — Computadores e Segurança Digital",
-  "titulo": "Segurança Digital",
+  "titulo": "Aula 03 — Segurança Digital",
   "subtitulo": "Como proteger seus dados e dispositivos com ferramentas e boas práticas contra ameaças online.",
   "tempo": 10,
   "secoes": [
@@ -24,10 +24,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Phishing", "descricao": "golpes via e-mail e mensagens que simulam empresas confiáveis para roubar dados." },
-            { "titulo": "Ransomware", "descricao": "sequestra arquivos e exige pagamento de resgate." },
-            { "titulo": "Spyware", "descricao": "espiona as atividades do usuário." },
-            { "titulo": "Malware", "descricao": "software malicioso que rouba ou destrói informações." }
+            {
+              "titulo": "Phishing",
+              "descricao": "golpes via e-mail e mensagens que simulam empresas confiáveis para roubar dados."
+            },
+            {
+              "titulo": "Ransomware",
+              "descricao": "sequestra arquivos e exige pagamento de resgate."
+            },
+            {
+              "titulo": "Spyware",
+              "descricao": "espiona as atividades do usuário."
+            },
+            {
+              "titulo": "Malware",
+              "descricao": "software malicioso que rouba ou destrói informações."
+            }
           ]
         },
         {
@@ -46,11 +58,26 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Antivírus", "descricao": "detecta e remove ameaças." },
-            { "titulo": "Firewall", "descricao": "bloqueia acessos não autorizados." },
-            { "titulo": "VPN", "descricao": "protege a conexão em redes públicas." },
-            { "titulo": "2FA", "descricao": "autenticação de dois fatores, segurança extra para logins." },
-            { "titulo": "Gerenciador de senhas", "descricao": "cria e armazena senhas fortes." }
+            {
+              "titulo": "Antivírus",
+              "descricao": "detecta e remove ameaças."
+            },
+            {
+              "titulo": "Firewall",
+              "descricao": "bloqueia acessos não autorizados."
+            },
+            {
+              "titulo": "VPN",
+              "descricao": "protege a conexão em redes públicas."
+            },
+            {
+              "titulo": "2FA",
+              "descricao": "autenticação de dois fatores, segurança extra para logins."
+            },
+            {
+              "titulo": "Gerenciador de senhas",
+              "descricao": "cria e armazena senhas fortes."
+            }
           ]
         }
       ]

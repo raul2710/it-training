@@ -1,7 +1,7 @@
 {
   "id": "c_m2_aula07",
   "modulo": "Módulo 2 — Microsoft Word",
-  "titulo": "Cabeçalhos e Rodapés",
+  "titulo": "Aula 07 — Cabeçalhos e Rodapés",
   "subtitulo": "Inserir cabeçalho, rodapé, numeração de páginas e data automática no documento.",
   "tempo": 10,
   "secoes": [
@@ -11,8 +11,14 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Cabeçalho", "descricao": "área na parte superior da página para inserir texto, números ou imagens." },
-            { "titulo": "Rodapé", "descricao": "área na parte inferior da página com a mesma finalidade." }
+            {
+              "titulo": "Cabeçalho",
+              "descricao": "área na parte superior da página para inserir texto, números ou imagens."
+            },
+            {
+              "titulo": "Rodapé",
+              "descricao": "área na parte inferior da página com a mesma finalidade."
+            }
           ]
         },
         {
@@ -27,10 +33,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Na guia Inserir", "descricao": "clique em Cabeçalho ou Rodapé." },
-            { "titulo": "Escolha um estilo", "descricao": "pré-definido ou selecione Editar Cabeçalho/Rodapé." },
-            { "titulo": "Digite o texto", "descricao": "como título do documento ou nome do autor." },
-            { "titulo": "Clique em Fechar Cabeçalho e Rodapé", "descricao": "para sair do modo de edição." }
+            {
+              "titulo": "Na guia Inserir",
+              "descricao": "clique em Cabeçalho ou Rodapé."
+            },
+            {
+              "titulo": "Escolha um estilo",
+              "descricao": "pré-definido ou selecione Editar Cabeçalho/Rodapé."
+            },
+            {
+              "titulo": "Digite o texto",
+              "descricao": "como título do documento ou nome do autor."
+            },
+            {
+              "titulo": "Clique em Fechar Cabeçalho e Rodapé",
+              "descricao": "para sair do modo de edição."
+            }
           ]
         },
         {
@@ -45,9 +63,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Na guia Inserir", "descricao": "clique em Número de Página." },
-            { "titulo": "Escolha a posição", "descricao": "como topo da página ou rodapé, e o estilo." },
-            { "titulo": "O Word insere automaticamente", "descricao": "a numeração em todas as páginas." }
+            {
+              "titulo": "Na guia Inserir",
+              "descricao": "clique em Número de Página."
+            },
+            {
+              "titulo": "Escolha a posição",
+              "descricao": "como topo da página ou rodapé, e o estilo."
+            },
+            {
+              "titulo": "O Word insere automaticamente",
+              "descricao": "a numeração em todas as páginas."
+            }
           ]
         },
         {
@@ -62,10 +89,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "No modo de edição de cabeçalho/rodapé", "descricao": "clique na guia Inserir." },
-            { "titulo": "Selecione Data e Hora", "descricao": "na opções." },
-            { "titulo": "Escolha o formato", "descricao": "e marque a opção Atualizar Automaticamente." },
-            { "titulo": "Clique em OK", "descricao": "para inserir." }
+            {
+              "titulo": "No modo de edição de cabeçalho/rodapé",
+              "descricao": "clique na guia Inserir."
+            },
+            {
+              "titulo": "Selecione Data e Hora",
+              "descricao": "na opções."
+            },
+            {
+              "titulo": "Escolha o formato",
+              "descricao": "e marque a opção Atualizar Automaticamente."
+            },
+            {
+              "titulo": "Clique em OK",
+              "descricao": "para inserir."
+            }
           ]
         },
         {
@@ -80,10 +119,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Fonte", "descricao": "altera estilo, tamanho e cor do texto." },
-            { "titulo": "Alinhamento", "descricao": "ajusta o texto à esquerda, centralizado ou à direita." },
-            { "titulo": "Bordas e sombreamento", "descricao": "adiciona linhas ou cores de fundo." },
-            { "titulo": "Inserir elementos", "descricao": "adiciona imagens, números de página ou campos automáticos." }
+            {
+              "titulo": "Fonte",
+              "descricao": "altera estilo, tamanho e cor do texto."
+            },
+            {
+              "titulo": "Alinhamento",
+              "descricao": "ajusta o texto à esquerda, centralizado ou à direita."
+            },
+            {
+              "titulo": "Bordas e sombreamento",
+              "descricao": "adiciona linhas ou cores de fundo."
+            },
+            {
+              "titulo": "Inserir elementos",
+              "descricao": "adiciona imagens, números de página ou campos automáticos."
+            }
           ]
         },
         {
@@ -98,9 +149,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Na guia Layout", "descricao": "clique em Configurar Página." },
-            { "titulo": "Na aba Layout", "descricao": "marque a opção de cabeçalhos e rodapés diferentes para páginas ímpares e pares." },
-            { "titulo": "Edite separadamente", "descricao": "o cabeçalho e o rodapé das páginas ímpares e pares." }
+            {
+              "titulo": "Na guia Layout",
+              "descricao": "clique em Configurar Página."
+            },
+            {
+              "titulo": "Na aba Layout",
+              "descricao": "marque a opção de cabeçalhos e rodapés diferentes para páginas ímpares e pares."
+            },
+            {
+              "titulo": "Edite separadamente",
+              "descricao": "o cabeçalho e o rodapé das páginas ímpares e pares."
+            }
           ]
         },
         {
@@ -115,9 +175,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Clique duas vezes", "descricao": "no cabeçalho ou rodapé para editá-lo ou clique com o botão direito." },
-            { "titulo": "Selecione o conteúdo", "descricao": "e pressione Delete." },
-            { "titulo": "Clique em Fechar Cabeçalho e Rodapé", "descricao": "para sair do modo de edição." }
+            {
+              "titulo": "Clique duas vezes",
+              "descricao": "no cabeçalho ou rodapé para editá-lo ou clique com o botão direito."
+            },
+            {
+              "titulo": "Selecione o conteúdo",
+              "descricao": "e pressione Delete."
+            },
+            {
+              "titulo": "Clique em Fechar Cabeçalho e Rodapé",
+              "descricao": "para sair do modo de edição."
+            }
           ]
         },
         {

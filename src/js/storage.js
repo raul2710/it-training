@@ -1,7 +1,7 @@
 // Abstração de armazenamento de sessão.
 // Tudo é salvo no sessionStorage e desaparece ao fechar a aba/navegador.
 
-const PREFIX = 'studyhub';
+const PREFIX = 'it-training';
 
 export const storage = {
   get(key) {

@@ -1,7 +1,7 @@
 {
   "id": "c_m2_aula04",
   "modulo": "Módulo 2 — Microsoft Word",
-  "titulo": "Trabalhando com Listas e Numeração",
+  "titulo": "Aula 04 — Trabalhando com Listas e Numeração",
   "subtitulo": "Criar e personalizar listas com marcadores, números e subníveis para organizar o documento.",
   "tempo": 10,
   "secoes": [
@@ -24,9 +24,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Listas com Marcadores", "descricao": "usadas para itens sem sequência específica." },
-            { "titulo": "Listas Numeradas", "descricao": "ideais para etapas sequenciais ou hierárquicas." },
-            { "titulo": "Listas Híbridas", "descricao": "combinação de marcadores e números para maior organização." }
+            {
+              "titulo": "Listas com Marcadores",
+              "descricao": "usadas para itens sem sequência específica."
+            },
+            {
+              "titulo": "Listas Numeradas",
+              "descricao": "ideais para etapas sequenciais ou hierárquicas."
+            },
+            {
+              "titulo": "Listas Híbridas",
+              "descricao": "combinação de marcadores e números para maior organização."
+            }
           ]
         },
         {
@@ -41,10 +50,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o local", "descricao": "onde deseja criar a lista." },
-            { "titulo": "Insira uma caixa de texto", "descricao": "ou clique no espaço de texto." },
-            { "titulo": "Clique no ícone de marcadores", "descricao": "na aba Página Inicial." },
-            { "titulo": "Digite os itens", "descricao": "pressionando Enter para adicionar novos itens." }
+            {
+              "titulo": "Selecione o local",
+              "descricao": "onde deseja criar a lista."
+            },
+            {
+              "titulo": "Insira uma caixa de texto",
+              "descricao": "ou clique no espaço de texto."
+            },
+            {
+              "titulo": "Clique no ícone de marcadores",
+              "descricao": "na aba Página Inicial."
+            },
+            {
+              "titulo": "Digite os itens",
+              "descricao": "pressionando Enter para adicionar novos itens."
+            }
           ]
         },
         {
@@ -59,10 +80,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Clique no espaço de texto", "descricao": "ou insira uma caixa de texto." },
-            { "titulo": "Clique no ícone de Numeração", "descricao": "na aba Página Inicial." },
-            { "titulo": "Digite os itens", "descricao": "pressionando Enter para cada item." },
-            { "titulo": "Altere o estilo", "descricao": "clique na seta ao lado do ícone e escolha outro formato (1, 2, 3 ou I, II, III)." }
+            {
+              "titulo": "Clique no espaço de texto",
+              "descricao": "ou insira uma caixa de texto."
+            },
+            {
+              "titulo": "Clique no ícone de Numeração",
+              "descricao": "na aba Página Inicial."
+            },
+            {
+              "titulo": "Digite os itens",
+              "descricao": "pressionando Enter para cada item."
+            },
+            {
+              "titulo": "Altere o estilo",
+              "descricao": "clique na seta ao lado do ícone e escolha outro formato (1, 2, 3 ou I, II, III)."
+            }
           ]
         },
         {
@@ -93,9 +126,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Crie uma lista básica", "descricao": "para começar." },
-            { "titulo": "Pressione Tab", "descricao": "para mover um item para o próximo nível." },
-            { "titulo": "Pressione Shift + Tab", "descricao": "para retornar ao nível anterior." }
+            {
+              "titulo": "Crie uma lista básica",
+              "descricao": "para começar."
+            },
+            {
+              "titulo": "Pressione Tab",
+              "descricao": "para mover um item para o próximo nível."
+            },
+            {
+              "titulo": "Pressione Shift + Tab",
+              "descricao": "para retornar ao nível anterior."
+            }
           ]
         },
         {
@@ -110,9 +152,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o texto da lista", "descricao": "que deseja alterar." },
-            { "titulo": "Na aba Página Inicial", "descricao": "use as opções de cor da fonte, negrito e itálico." },
-            { "titulo": "Experimente cores contrastantes", "descricao": "para melhorar a visibilidade." }
+            {
+              "titulo": "Selecione o texto da lista",
+              "descricao": "que deseja alterar."
+            },
+            {
+              "titulo": "Na aba Página Inicial",
+              "descricao": "use as opções de cor da fonte, negrito e itálico."
+            },
+            {
+              "titulo": "Experimente cores contrastantes",
+              "descricao": "para melhorar a visibilidade."
+            }
           ]
         },
         {

@@ -1,7 +1,7 @@
 {
   "id": "c_m2_aula08",
   "modulo": "Módulo 2 — Microsoft Word",
-  "titulo": "Controle Ortográfico, Seções e Quebras de Página",
+  "titulo": "Aula 08 — Controle Ortográfico, Seções e Quebras de Página",
   "subtitulo": "Revisão ortográfica e gramatical, autocorreção, dicionário e quebras de página.",
   "tempo": 10,
   "secoes": [
@@ -79,9 +79,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Quebra de página simples", "descricao": "insere uma nova página." },
-            { "titulo": "Quebra de seção", "descricao": "divide o documento em partes com formatações diferentes." },
-            { "titulo": "Quebra de linha", "descricao": "controla a divisão de linhas sem mudar de página." }
+            {
+              "titulo": "Quebra de página simples",
+              "descricao": "insere uma nova página."
+            },
+            {
+              "titulo": "Quebra de seção",
+              "descricao": "divide o documento em partes com formatações diferentes."
+            },
+            {
+              "titulo": "Quebra de linha",
+              "descricao": "controla a divisão de linhas sem mudar de página."
+            }
           ]
         }
       ]
@@ -92,8 +101,14 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Posicione o cursor", "descricao": "onde deseja a quebra." },
-            { "titulo": "Use o atalho Ctrl + Enter", "descricao": "ou o menu \"Inserir\", para criar a quebra." }
+            {
+              "titulo": "Posicione o cursor",
+              "descricao": "onde deseja a quebra."
+            },
+            {
+              "titulo": "Use o atalho Ctrl + Enter",
+              "descricao": "ou o menu \"Inserir\", para criar a quebra."
+            }
           ]
         }
       ]

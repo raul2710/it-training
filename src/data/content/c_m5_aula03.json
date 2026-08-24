@@ -1,7 +1,7 @@
 {
   "id": "c_m5_aula03",
   "modulo": "Módulo 5 — Computação em Nuvem e IA",
-  "titulo": "O que são Dados e por que são tão importantes para a IA?",
+  "titulo": "Aula 03 — O que são Dados e por que são tão importantes para a IA?",
   "subtitulo": "O significado de dado, seus tipos e como dados alimentam (ou prejudicam) a IA.",
   "tempo": 10,
   "secoes": [
@@ -15,10 +15,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Texto", "descricao": "Mensagens, comentários, notícias" },
-            { "titulo": "Imagens", "descricao": "Fotos, vídeos, radiografias" },
-            { "titulo": "Números", "descricao": "Preços, temperatura, notas" },
-            { "titulo": "Sons", "descricao": "Músicas, voz, ruídos" }
+            {
+              "titulo": "Texto",
+              "descricao": "Mensagens, comentários, notícias"
+            },
+            {
+              "titulo": "Imagens",
+              "descricao": "Fotos, vídeos, radiografias"
+            },
+            {
+              "titulo": "Números",
+              "descricao": "Preços, temperatura, notas"
+            },
+            {
+              "titulo": "Sons",
+              "descricao": "Músicas, voz, ruídos"
+            }
           ]
         }
       ]
@@ -29,8 +41,14 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "O aluno", "descricao": "Estuda provas antigas, aprende com os erros, melhora com a prática e usa exemplos para entender." },
-            { "titulo": "A IA", "descricao": "Analisa milhões de exemplos, identifica padrões e erros, e usa dados para aprender." }
+            {
+              "titulo": "O aluno",
+              "descricao": "Estuda provas antigas, aprende com os erros, melhora com a prática e usa exemplos para entender."
+            },
+            {
+              "titulo": "A IA",
+              "descricao": "Analisa milhões de exemplos, identifica padrões e erros, e usa dados para aprender."
+            }
           ]
         }
       ]
@@ -41,10 +59,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Mostrar muitas fotos", "descricao": "A IA recebe 1 milhão de fotos com e sem gatos." },
-            { "titulo": "Dizer o que é cada foto", "descricao": "Cada foto é marcada: 'gato' ou 'não é gato'." },
-            { "titulo": "IA encontra padrões", "descricao": "Ela aprende: orelhas pontudas, bigodes, olhos..." },
-            { "titulo": "Testar com foto nova", "descricao": "A IA reconhece gatos em fotos que nunca viu." }
+            {
+              "titulo": "Mostrar muitas fotos",
+              "descricao": "A IA recebe 1 milhão de fotos com e sem gatos."
+            },
+            {
+              "titulo": "Dizer o que é cada foto",
+              "descricao": "Cada foto é marcada: 'gato' ou 'não é gato'."
+            },
+            {
+              "titulo": "IA encontra padrões",
+              "descricao": "Ela aprende: orelhas pontudas, bigodes, olhos..."
+            },
+            {
+              "titulo": "Testar com foto nova",
+              "descricao": "A IA reconhece gatos em fotos que nunca viu."
+            }
           ]
         },
         {
@@ -59,8 +89,14 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Dados em quantidade", "descricao": "A IA aprende padrões reais, comete menos erros e funciona em situações diversas." },
-            { "titulo": "Poucos dados", "descricao": "A IA chuta mais do que acerta, com resultado pouco confiável e falhas em casos novos." }
+            {
+              "titulo": "Dados em quantidade",
+              "descricao": "A IA aprende padrões reais, comete menos erros e funciona em situações diversas."
+            },
+            {
+              "titulo": "Poucos dados",
+              "descricao": "A IA chuta mais do que acerta, com resultado pouco confiável e falhas em casos novos."
+            }
           ]
         },
         {

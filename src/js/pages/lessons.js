@@ -2,7 +2,7 @@ import { createHeader } from '../components/header.js';
 import { createSidebar } from '../components/sidebar.js';
 import { storage } from '../storage.js';
 import { icons } from '../icons.js';
-import { $, $$, debounce, escapeHtml } from '../utils.js';
+import { $, $$, debounce, escapeHtml, groupByModule } from '../utils.js';
 
 // Carrega automaticamente TODOS os arquivos .json da pasta data/ (escalável).
 const lessonFiles = import.meta.glob('../../data/*.json', { eager: true });
@@ -10,56 +10,38 @@ const lessonFiles = import.meta.glob('../../data/*.json', { eager: true });
 const DIFFICULTIES = ['Fácil', 'Média', 'Difícil'];
 
 const DIFFICULTY_CLASS = {
-  'Fácil': 'badge--success',
-  'Média': 'badge--warning',
-  'Difícil': 'badge--danger'
+  Fácil: 'badge--success',
+  Média: 'badge--warning',
+  Difícil: 'badge--danger'
 };
+
+let _lessonsCache = null;
 
 /** Retorna a lista de aulas ordenada por título. */
 export function loadLessons() {
-  return Object.entries(lessonFiles)
+  if (_lessonsCache) return _lessonsCache;
+
+  _lessonsCache = Object.entries(lessonFiles)
     .map(([path, data]) => ({
       ...data,
-      id: path.split('/').pop().replace(/\.json$/, '')
+      id: path
+        .split('/')
+        .pop()
+        .replace(/\.json$/, '')
     }))
     .sort((a, b) => String(a.titulo).localeCompare(String(b.titulo), 'pt-BR', { numeric: true }));
+
+  return _lessonsCache;
 }
 
 export function getLesson(id) {
   return loadLessons().find((lesson) => lesson.id === id) || null;
 }
 
-/** Extrai o número do módulo para ordenação ("Módulo 10" > "Módulo 2"). */
-function moduleNumber(name) {
-  const match = String(name).match(/\d+/);
-  const number = match ? Number(match[0]) : NaN;
-  return Number.isNaN(number) ? Infinity : number;
-}
-
-/** Agrupa aulas por módulo, ordenando módulos e aulas internamente. */
-function groupByModule(lessons) {
-  const groups = new Map();
-
-  for (const lesson of lessons) {
-    const name = lesson.modulo || 'Módulo';
-    if (!groups.has(name)) groups.set(name, []);
-    groups.get(name).push(lesson);
-  }
-
-  return Array.from(groups.entries())
-    .map(([name, items]) => ({
-      name,
-      lessons: items.sort((a, b) =>
-        String(a.titulo).localeCompare(String(b.titulo), 'pt-BR', { numeric: true })
-      )
-    }))
-    .sort((a, b) => moduleNumber(a.name) - moduleNumber(b.name));
-}
-
 /** Listagem de aulas organizada por módulos (cards expansíveis). */
 export function lessonsPage() {
   const lessons = loadLessons();
-  const modules = groupByModule(lessons);
+  const modules = groupByModule(lessons, { itemsKey: 'lessons' });
   const app = document.createElement('div');
   app.className = 'app-shell';
 
@@ -98,7 +80,9 @@ export function lessonsPage() {
   const matchesFilter = (lesson, query, difficulty) =>
     (!query ||
       String(lesson.titulo).toLowerCase().includes(query) ||
-      String(lesson.descricao || '').toLowerCase().includes(query)) &&
+      String(lesson.descricao || '')
+        .toLowerCase()
+        .includes(query)) &&
     (!difficulty || lesson.dificuldade === difficulty);
 
   const renderModules = (query = '', difficulty = '') => {
@@ -110,7 +94,9 @@ export function lessonsPage() {
     }));
 
     // Com filtro ativo, módulos sem correspondência ficam ocultos.
-    const visible = hasFilter ? withMatches.filter((module) => module.matched.length > 0) : withMatches;
+    const visible = hasFilter
+      ? withMatches.filter((module) => module.matched.length > 0)
+      : withMatches;
     const matchedTotal = withMatches.reduce((sum, module) => sum + module.matched.length, 0);
 
     $('[data-count]', main).textContent =

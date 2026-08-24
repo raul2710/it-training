@@ -1,7 +1,7 @@
 {
   "id": "c_m1_aula02",
   "modulo": "Módulo 1 — Computadores e Segurança Digital",
-  "titulo": "Ameaças Digitais",
+  "titulo": "Aula 02 — Ameaças Digitais",
   "subtitulo": "Os perigos que podem afetar nossos dados e nossa privacidade online — e como se proteger.",
   "tempo": 10,
   "secoes": [
@@ -28,10 +28,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Vírus", "descricao": "anexa-se a arquivos e se espalha entre dispositivos." },
-            { "titulo": "Worms", "descricao": "replicam-se e se espalham sozinhos." },
-            { "titulo": "Trojans", "descricao": "disfarçam-se de software legítimo." },
-            { "titulo": "Spyware", "descricao": "coleta informações sem o conhecimento do usuário." }
+            {
+              "titulo": "Vírus",
+              "descricao": "anexa-se a arquivos e se espalha entre dispositivos."
+            },
+            {
+              "titulo": "Worms",
+              "descricao": "replicam-se e se espalham sozinhos."
+            },
+            {
+              "titulo": "Trojans",
+              "descricao": "disfarçam-se de software legítimo."
+            },
+            {
+              "titulo": "Spyware",
+              "descricao": "coleta informações sem o conhecimento do usuário."
+            }
           ]
         }
       ]

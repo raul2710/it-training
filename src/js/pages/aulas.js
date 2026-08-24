@@ -2,55 +2,37 @@ import { createHeader } from '../components/header.js';
 import { createSidebar } from '../components/sidebar.js';
 import { storage } from '../storage.js';
 import { icons } from '../icons.js';
-import { $, $$, debounce, escapeHtml } from '../utils.js';
+import { $, $$, debounce, escapeHtml, groupByModule } from '../utils.js';
 
 // Carrega automaticamente TODO o conteúdo teórico da pasta data/content/ (escalável).
 const aulaFiles = import.meta.glob('../../data/content/*.json', { eager: true });
 
+let _aulasCache = null;
+
 export function loadAulas() {
-  return Object.entries(aulaFiles)
+  if (_aulasCache) return _aulasCache;
+
+  _aulasCache = Object.entries(aulaFiles)
     .map(([path, data]) => ({
       ...data,
-      id: path.split('/').pop().replace(/\.json$/, '')
+      id: path
+        .split('/')
+        .pop()
+        .replace(/\.json$/, '')
     }))
     .sort((a, b) => String(a.titulo).localeCompare(String(b.titulo), 'pt-BR', { numeric: true }));
+
+  return _aulasCache;
 }
 
 export function getAula(id) {
   return loadAulas().find((aula) => aula.id === id) || null;
 }
 
-/** Extrai o número do módulo para ordenação ("Módulo 10" > "Módulo 2"). */
-function moduleNumber(name) {
-  const match = String(name).match(/\d+/);
-  const number = match ? Number(match[0]) : NaN;
-  return Number.isNaN(number) ? Infinity : number;
-}
-
-/** Agrupa aulas por módulo, ordenando módulos e aulas internamente. */
-function groupByModule(aulas) {
-  const groups = new Map();
-
-  for (const aula of aulas) {
-    const name = aula.modulo || 'Módulo';
-    if (!groups.has(name)) groups.set(name, []);
-    groups.get(name).push(aula);
-  }
-
-  return Array.from(groups.entries())
-    .map(([name, items]) => ({
-      name,
-      aulas: items.sort((a, b) =>
-        String(a.titulo).localeCompare(String(b.titulo), 'pt-BR', { numeric: true })
-      )
-    }))
-    .sort((a, b) => moduleNumber(a.name) - moduleNumber(b.name));
-}
-
 /** Material teórico (aulas) organizado por módulos (cards expansíveis). */
 export function aulasPage() {
   const aulas = loadAulas();
-  const modules = groupByModule(aulas);
+  const modules = groupByModule(aulas, { itemsKey: 'aulas' });
   const app = document.createElement('div');
   app.className = 'app-shell';
 
@@ -82,7 +64,9 @@ export function aulasPage() {
   const matchesFilter = (aula, query) =>
     !query ||
     String(aula.titulo).toLowerCase().includes(query) ||
-    String(aula.subtitulo || '').toLowerCase().includes(query);
+    String(aula.subtitulo || '')
+      .toLowerCase()
+      .includes(query);
 
   const renderModules = (query = '') => {
     const hasFilter = Boolean(query);
@@ -93,10 +77,13 @@ export function aulasPage() {
     }));
 
     // Com filtro ativo, módulos sem correspondência ficam ocultos.
-    const visible = hasFilter ? withMatches.filter((module) => module.matched.length > 0) : withMatches;
+    const visible = hasFilter
+      ? withMatches.filter((module) => module.matched.length > 0)
+      : withMatches;
     const matchedTotal = withMatches.reduce((sum, module) => sum + module.matched.length, 0);
 
-    $('[data-count]', main).textContent = `${matchedTotal} ${matchedTotal === 1 ? 'aula' : 'aulas'}`;
+    $('[data-count]', main).textContent =
+      `${matchedTotal} ${matchedTotal === 1 ? 'aula' : 'aulas'}`;
 
     if (!visible.length) {
       $('[data-modules]', main).innerHTML =

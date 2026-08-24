@@ -12,7 +12,7 @@
       // Aplica o tema antes da renderização para evitar flash de cor incorreta.
       (function () {
         try {
-          var theme = localStorage.getItem('studyhub:theme');
+          var theme = localStorage.getItem('it-training:theme');
           if (!theme) {
             theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
           }

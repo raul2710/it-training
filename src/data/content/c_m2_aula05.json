@@ -1,7 +1,7 @@
 {
   "id": "c_m2_aula05",
   "modulo": "Módulo 2 — Microsoft Word",
-  "titulo": "Inserindo Imagens no Microsoft Word",
+  "titulo": "Aula 05 — Inserindo Imagens no Microsoft Word",
   "subtitulo": "Inserir, formatar, posicionar e usar boas práticas com imagens nos documentos.",
   "tempo": 10,
   "secoes": [
@@ -28,11 +28,26 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Abra o Microsoft Word", "descricao": "e crie um novo documento ou abra um existente." },
-            { "titulo": "Posicione o cursor", "descricao": "no local onde deseja inserir a imagem." },
-            { "titulo": "Na guia Inserir", "descricao": "clique em Imagens." },
-            { "titulo": "Escolha a origem", "descricao": "Este Dispositivo (arquivo no computador) ou Imagens Online (Bing ou OneDrive)." },
-            { "titulo": "Selecione a imagem", "descricao": "e clique em Inserir." }
+            {
+              "titulo": "Abra o Microsoft Word",
+              "descricao": "e crie um novo documento ou abra um existente."
+            },
+            {
+              "titulo": "Posicione o cursor",
+              "descricao": "no local onde deseja inserir a imagem."
+            },
+            {
+              "titulo": "Na guia Inserir",
+              "descricao": "clique em Imagens."
+            },
+            {
+              "titulo": "Escolha a origem",
+              "descricao": "Este Dispositivo (arquivo no computador) ou Imagens Online (Bing ou OneDrive)."
+            },
+            {
+              "titulo": "Selecione a imagem",
+              "descricao": "e clique em Inserir."
+            }
           ]
         }
       ]
@@ -47,10 +62,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Redimensionar", "descricao": "arraste os cantos da imagem para ajustar o tamanho." },
-            { "titulo": "Recortar", "descricao": "remova partes indesejadas da imagem." },
-            { "titulo": "Estilos de Imagem", "descricao": "aplicam bordas, efeitos e formatos pré-definidos." },
-            { "titulo": "Ajustes", "descricao": "alteram brilho, contraste e cor." }
+            {
+              "titulo": "Redimensionar",
+              "descricao": "arraste os cantos da imagem para ajustar o tamanho."
+            },
+            {
+              "titulo": "Recortar",
+              "descricao": "remova partes indesejadas da imagem."
+            },
+            {
+              "titulo": "Estilos de Imagem",
+              "descricao": "aplicam bordas, efeitos e formatos pré-definidos."
+            },
+            {
+              "titulo": "Ajustes",
+              "descricao": "alteram brilho, contraste e cor."
+            }
           ]
         }
       ]
@@ -61,17 +88,35 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Clique na imagem", "descricao": "para selecioná-la." },
-            { "titulo": "Na guia Ferramentas de Imagem", "descricao": "clique em Layout de Texto." },
-            { "titulo": "Escolha a opção", "descricao": "Em Linha com o Texto, Quebra de Texto ou Mais Opções de Layout." }
+            {
+              "titulo": "Clique na imagem",
+              "descricao": "para selecioná-la."
+            },
+            {
+              "titulo": "Na guia Ferramentas de Imagem",
+              "descricao": "clique em Layout de Texto."
+            },
+            {
+              "titulo": "Escolha a opção",
+              "descricao": "Em Linha com o Texto, Quebra de Texto ou Mais Opções de Layout."
+            }
           ]
         },
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Em Linha com o Texto", "descricao": "a imagem fica como se fosse um caractere." },
-            { "titulo": "Quebra de Texto", "descricao": "o texto flui ao redor da imagem (quadrado, estreito etc.)." },
-            { "titulo": "Mais Opções de Layout", "descricao": "personaliza posição e alinhamento." }
+            {
+              "titulo": "Em Linha com o Texto",
+              "descricao": "a imagem fica como se fosse um caractere."
+            },
+            {
+              "titulo": "Quebra de Texto",
+              "descricao": "o texto flui ao redor da imagem (quadrado, estreito etc.)."
+            },
+            {
+              "titulo": "Mais Opções de Layout",
+              "descricao": "personaliza posição e alinhamento."
+            }
           ]
         }
       ]
@@ -82,10 +127,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Remover Fundo", "descricao": "elimina o plano de fundo da imagem." },
-            { "titulo": "Adicionar Legenda", "descricao": "insere uma descrição abaixo da imagem." },
-            { "titulo": "Hiperlink", "descricao": "transforma a imagem em um link clicável." },
-            { "titulo": "Agrupar", "descricao": "junta várias imagens para movê-las ou formatá-las juntas." }
+            {
+              "titulo": "Remover Fundo",
+              "descricao": "elimina o plano de fundo da imagem."
+            },
+            {
+              "titulo": "Adicionar Legenda",
+              "descricao": "insere uma descrição abaixo da imagem."
+            },
+            {
+              "titulo": "Hiperlink",
+              "descricao": "transforma a imagem em um link clicável."
+            },
+            {
+              "titulo": "Agrupar",
+              "descricao": "junta várias imagens para movê-las ou formatá-las juntas."
+            }
           ]
         }
       ]
@@ -110,9 +167,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Redimensionar sem distorcer", "descricao": "use as alças de canto e segure a tecla Shift para manter a proporção." },
-            { "titulo": "Alinhar ao centro da página", "descricao": "selecione a imagem e use a opção Centralizar na guia Página Inicial." },
-            { "titulo": "Inserir imagem de fundo", "descricao": "na guia Design, clique em Cor da Página > Efeitos de Preenchimento > Imagem." }
+            {
+              "titulo": "Redimensionar sem distorcer",
+              "descricao": "use as alças de canto e segure a tecla Shift para manter a proporção."
+            },
+            {
+              "titulo": "Alinhar ao centro da página",
+              "descricao": "selecione a imagem e use a opção Centralizar na guia Página Inicial."
+            },
+            {
+              "titulo": "Inserir imagem de fundo",
+              "descricao": "na guia Design, clique em Cor da Página > Efeitos de Preenchimento > Imagem."
+            }
           ]
         }
       ]

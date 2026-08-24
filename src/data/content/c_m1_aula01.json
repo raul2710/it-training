@@ -1,7 +1,7 @@
 {
   "id": "c_m1_aula01",
   "modulo": "Módulo 1 — Computadores e Segurança Digital",
-  "titulo": "Introdução aos Computadores",
+  "titulo": "Aula 01 — Introdução aos Computadores",
   "subtitulo": "O que é um computador, suas partes, como funciona e como evoluiu até os dias de hoje.",
   "tempo": 10,
   "secoes": [
@@ -24,9 +24,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Estudar", "descricao": "pesquisas e assistir aulas." },
-            { "titulo": "Criar", "descricao": "desenhos e textos." },
-            { "titulo": "Entretenimento", "descricao": "jogos e filmes." }
+            {
+              "titulo": "Estudar",
+              "descricao": "pesquisas e assistir aulas."
+            },
+            {
+              "titulo": "Criar",
+              "descricao": "desenhos e textos."
+            },
+            {
+              "titulo": "Entretenimento",
+              "descricao": "jogos e filmes."
+            }
           ]
         },
         {
@@ -45,9 +54,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Entrada de dados", "descricao": "teclado, mouse e microfone." },
-            { "titulo": "Processamento", "descricao": "a \"cabeça\" do computador, o processador." },
-            { "titulo": "Saída de dados", "descricao": "tela, impressora e caixas de som." }
+            {
+              "titulo": "Entrada de dados",
+              "descricao": "teclado, mouse e microfone."
+            },
+            {
+              "titulo": "Processamento",
+              "descricao": "a \"cabeça\" do computador, o processador."
+            },
+            {
+              "titulo": "Saída de dados",
+              "descricao": "tela, impressora e caixas de som."
+            }
           ]
         },
         {
@@ -62,8 +80,14 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Hardware", "descricao": "as partes que você pode tocar, como teclado, mouse e monitor." },
-            { "titulo": "Software", "descricao": "os programas que ajudam o computador a funcionar, como jogos, navegadores de internet e editores de texto." }
+            {
+              "titulo": "Hardware",
+              "descricao": "as partes que você pode tocar, como teclado, mouse e monitor."
+            },
+            {
+              "titulo": "Software",
+              "descricao": "os programas que ajudam o computador a funcionar, como jogos, navegadores de internet e editores de texto."
+            }
           ]
         }
       ]
@@ -74,8 +98,14 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Antes", "descricao": "grandes e lentos, como o ENIAC." },
-            { "titulo": "Hoje", "descricao": "pequenos, rápidos e presentes em quase todos os lugares, como nos celulares." }
+            {
+              "titulo": "Antes",
+              "descricao": "grandes e lentos, como o ENIAC."
+            },
+            {
+              "titulo": "Hoje",
+              "descricao": "pequenos, rápidos e presentes em quase todos os lugares, como nos celulares."
+            }
           ]
         },
         {

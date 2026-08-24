@@ -1,7 +1,7 @@
 {
   "id": "c_m2_aula02",
   "modulo": "Módulo 2 — Microsoft Word",
-  "titulo": "Formatação de Texto",
+  "titulo": "Aula 02 — Formatação de Texto",
   "subtitulo": "Personalizando fonte, alinhamento, espaçamento, estilos e destaques no documento.",
   "tempo": 10,
   "secoes": [
@@ -24,9 +24,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o texto", "descricao": "que você deseja formatar." },
-            { "titulo": "Vá para a guia Página Inicial", "descricao": "para acessar as opções de fonte." },
-            { "titulo": "No grupo Fonte", "descricao": "escolha um estilo, tamanho e cor." }
+            {
+              "titulo": "Selecione o texto",
+              "descricao": "que você deseja formatar."
+            },
+            {
+              "titulo": "Vá para a guia Página Inicial",
+              "descricao": "para acessar as opções de fonte."
+            },
+            {
+              "titulo": "No grupo Fonte",
+              "descricao": "escolha um estilo, tamanho e cor."
+            }
           ]
         },
         {
@@ -47,9 +56,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o parágrafo", "descricao": "que deseja alinhar." },
-            { "titulo": "Na guia Página Inicial", "descricao": "clique nos botões de alinhamento." },
-            { "titulo": "Escolha a opção", "descricao": "à esquerda, ao centro, à direita ou justificado." }
+            {
+              "titulo": "Selecione o parágrafo",
+              "descricao": "que deseja alinhar."
+            },
+            {
+              "titulo": "Na guia Página Inicial",
+              "descricao": "clique nos botões de alinhamento."
+            },
+            {
+              "titulo": "Escolha a opção",
+              "descricao": "à esquerda, ao centro, à direita ou justificado."
+            }
           ]
         },
         {
@@ -64,9 +82,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione o texto", "descricao": "que deseja ajustar." },
-            { "titulo": "Clique em Espaçamento entre Linhas", "descricao": "no grupo Parágrafo." },
-            { "titulo": "Escolha uma opção", "descricao": "como \"1,5\" ou \"2,0\"." }
+            {
+              "titulo": "Selecione o texto",
+              "descricao": "que deseja ajustar."
+            },
+            {
+              "titulo": "Clique em Espaçamento entre Linhas",
+              "descricao": "no grupo Parágrafo."
+            },
+            {
+              "titulo": "Escolha uma opção",
+              "descricao": "como \"1,5\" ou \"2,0\"."
+            }
           ]
         },
         {

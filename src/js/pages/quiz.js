@@ -62,9 +62,7 @@ export function quizPage(params) {
     </div>
   `;
 
-  $('[data-progress]', main).appendChild(
-    createProgressBar({ current: 1, total: engine.total })
-  );
+  $('[data-progress]', main).appendChild(createProgressBar({ current: 1, total: engine.total }));
 
   const timerEl = $('[data-timer]', main);
   timer.onTick = (seconds) => {
@@ -77,7 +75,8 @@ export function quizPage(params) {
     const selected = engine.answers[entry.id];
 
     $('[data-counter]', main).textContent = `Questão ${engine.currentIndex + 1} de ${engine.total}`;
-    $('[data-answered]', main).textContent = `${engine.answeredCount} de ${engine.total} respondidas`;
+    $('[data-answered]', main).textContent =
+      `${engine.answeredCount} de ${engine.total} respondidas`;
     updateProgressBar($('[data-progress] .progress', main), engine.currentIndex + 1, engine.total);
 
     $('[data-body]', main).innerHTML = `
@@ -122,7 +121,8 @@ export function quizPage(params) {
       $('.option__check', btn).innerHTML = isSelected ? icons.check : '';
     });
 
-    $('[data-answered]', main).textContent = `${engine.answeredCount} de ${engine.total} respondidas`;
+    $('[data-answered]', main).textContent =
+      `${engine.answeredCount} de ${engine.total} respondidas`;
     $('[data-next]', main).disabled = false;
   };
 

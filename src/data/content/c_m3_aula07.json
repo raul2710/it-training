@@ -1,7 +1,7 @@
 {
   "id": "c_m3_aula07",
   "modulo": "Módulo 3 — Microsoft Excel",
-  "titulo": "Tabelas Dinâmicas",
+  "titulo": "Aula 07 — Tabelas Dinâmicas",
   "subtitulo": "O que são tabelas dinâmicas, como criá-las, os conceitos-chave e como montar relatórios com elas.",
   "tempo": 10,
   "secoes": [
@@ -15,9 +15,18 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Resumir", "descricao": "contar funcionários por departamento." },
-            { "titulo": "Calcular", "descricao": "média salarial por cidade." },
-            { "titulo": "Comparar", "descricao": "vendas por mês." }
+            {
+              "titulo": "Resumir",
+              "descricao": "contar funcionários por departamento."
+            },
+            {
+              "titulo": "Calcular",
+              "descricao": "média salarial por cidade."
+            },
+            {
+              "titulo": "Comparar",
+              "descricao": "vendas por mês."
+            }
           ]
         },
         {
@@ -32,9 +41,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione os dados", "descricao": "incluindo os cabeçalhos das colunas." },
-            { "titulo": "Clique em Inserir > Tabela", "descricao": "e confirme marcando a opção de cabeçalhos." },
-            { "titulo": "Verifique o intervalo", "descricao": "e clique em OK para criar a tabela." }
+            {
+              "titulo": "Selecione os dados",
+              "descricao": "incluindo os cabeçalhos das colunas."
+            },
+            {
+              "titulo": "Clique em Inserir > Tabela",
+              "descricao": "e confirme marcando a opção de cabeçalhos."
+            },
+            {
+              "titulo": "Verifique o intervalo",
+              "descricao": "e clique em OK para criar a tabela."
+            }
           ]
         },
         {
@@ -49,10 +67,22 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione a tabela", "descricao": "de dados transformada no passo anterior." },
-            { "titulo": "Clique em Inserir > Tabela Dinâmica", "descricao": "e escolha uma nova planilha." },
-            { "titulo": "Monte o relatório", "descricao": "arrastando os campos para linhas, colunas e valores." },
-            { "titulo": "Organize a planilha", "descricao": "renomeando as abas para fácil identificação." }
+            {
+              "titulo": "Selecione a tabela",
+              "descricao": "de dados transformada no passo anterior."
+            },
+            {
+              "titulo": "Clique em Inserir > Tabela Dinâmica",
+              "descricao": "e escolha uma nova planilha."
+            },
+            {
+              "titulo": "Monte o relatório",
+              "descricao": "arrastando os campos para linhas, colunas e valores."
+            },
+            {
+              "titulo": "Organize a planilha",
+              "descricao": "renomeando as abas para fácil identificação."
+            }
           ]
         }
       ]
@@ -63,10 +93,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Linhas", "descricao": "o que será comparado, como cidade ou contrato." },
-            { "titulo": "Colunas", "descricao": "agrupam por categoria, de forma opcional." },
-            { "titulo": "Valores", "descricao": "o que será medido, como contagem ou soma." },
-            { "titulo": "Segmentações", "descricao": "filtros visuais interativos para facilitar a análise." }
+            {
+              "titulo": "Linhas",
+              "descricao": "o que será comparado, como cidade ou contrato."
+            },
+            {
+              "titulo": "Colunas",
+              "descricao": "agrupam por categoria, de forma opcional."
+            },
+            {
+              "titulo": "Valores",
+              "descricao": "o que será medido, como contagem ou soma."
+            },
+            {
+              "titulo": "Segmentações",
+              "descricao": "filtros visuais interativos para facilitar a análise."
+            }
           ]
         },
         {
@@ -117,11 +159,26 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Abra uma planilha com dados reais", "descricao": "de funcionários ou vendas." },
-            { "titulo": "Transforme os dados em tabela", "descricao": "usando Inserir > Tabela." },
-            { "titulo": "Crie 4 tabelas dinâmicas", "descricao": "para responder diferentes perguntas." },
-            { "titulo": "Calcule idade e faixa etária", "descricao": "com as fórmulas aprendidas." },
-            { "titulo": "Adicione filtros e gráficos", "descricao": "montando um dashboard final." }
+            {
+              "titulo": "Abra uma planilha com dados reais",
+              "descricao": "de funcionários ou vendas."
+            },
+            {
+              "titulo": "Transforme os dados em tabela",
+              "descricao": "usando Inserir > Tabela."
+            },
+            {
+              "titulo": "Crie 4 tabelas dinâmicas",
+              "descricao": "para responder diferentes perguntas."
+            },
+            {
+              "titulo": "Calcule idade e faixa etária",
+              "descricao": "com as fórmulas aprendidas."
+            },
+            {
+              "titulo": "Adicione filtros e gráficos",
+              "descricao": "montando um dashboard final."
+            }
           ]
         }
       ]

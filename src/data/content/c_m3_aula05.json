@@ -1,7 +1,7 @@
 {
   "id": "c_m3_aula05",
   "modulo": "Módulo 3 — Microsoft Excel",
-  "titulo": "Classificação e Filtros no Excel",
+  "titulo": "Aula 05 — Classificação e Filtros no Excel",
   "subtitulo": "Como organizar dados com classificação e selecionar apenas o que importa com filtros básicos e avançados.",
   "tempo": 10,
   "secoes": [
@@ -28,9 +28,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Selecione uma célula", "descricao": "na coluna que deseja ordenar." },
-            { "titulo": "Abra a guia Dados", "descricao": "e procure o grupo Classificar e Filtrar." },
-            { "titulo": "Escolha a ordem", "descricao": "A a Z, Z a A, ou do menor para o maior." }
+            {
+              "titulo": "Selecione uma célula",
+              "descricao": "na coluna que deseja ordenar."
+            },
+            {
+              "titulo": "Abra a guia Dados",
+              "descricao": "e procure o grupo Classificar e Filtrar."
+            },
+            {
+              "titulo": "Escolha a ordem",
+              "descricao": "A a Z, Z a A, ou do menor para o maior."
+            }
           ]
         },
         {
@@ -62,9 +71,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Ative o filtro", "descricao": "em Dados > Filtro ou pressione Ctrl + Shift + L." },
-            { "titulo": "Clique na seta", "descricao": "do cabeçalho da coluna." },
-            { "titulo": "Escolha o critério", "descricao": "texto, número, data ou cor para filtrar." }
+            {
+              "titulo": "Ative o filtro",
+              "descricao": "em Dados > Filtro ou pressione Ctrl + Shift + L."
+            },
+            {
+              "titulo": "Clique na seta",
+              "descricao": "do cabeçalho da coluna."
+            },
+            {
+              "titulo": "Escolha o critério",
+              "descricao": "texto, número, data ou cor para filtrar."
+            }
           ]
         },
         {
@@ -83,8 +101,14 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "E", "descricao": "todos os critérios devem ser atendidos ao mesmo tempo." },
-            { "titulo": "OU", "descricao": "basta que um dos critérios seja atendido." }
+            {
+              "titulo": "E",
+              "descricao": "todos os critérios devem ser atendidos ao mesmo tempo."
+            },
+            {
+              "titulo": "OU",
+              "descricao": "basta que um dos critérios seja atendido."
+            }
           ]
         },
         {

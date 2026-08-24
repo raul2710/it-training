@@ -1,7 +1,7 @@
 {
   "id": "c_m1_aula06",
   "modulo": "Módulo 1 — Computadores e Segurança Digital",
-  "titulo": "Digitação: Desenvolvendo Velocidade e Precisão",
+  "titulo": "Aula 06 — Digitação: Desenvolvendo Velocidade e Precisão",
   "subtitulo": "Postura correta, conhecimento do teclado e exercícios para digitar com rapidez e precisão.",
   "tempo": 10,
   "secoes": [
@@ -15,10 +15,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Produtividade", "descricao": "você realiza tarefas mais rapidamente." },
-            { "titulo": "Precisão", "descricao": "reduz erros ao digitar textos e números." },
-            { "titulo": "Saúde", "descricao": "evita dores e lesões por esforço repetitivo (LER/DORT)." },
-            { "titulo": "Competitividade", "descricao": "habilidade valorizada no mercado de trabalho." }
+            {
+              "titulo": "Produtividade",
+              "descricao": "você realiza tarefas mais rapidamente."
+            },
+            {
+              "titulo": "Precisão",
+              "descricao": "reduz erros ao digitar textos e números."
+            },
+            {
+              "titulo": "Saúde",
+              "descricao": "evita dores e lesões por esforço repetitivo (LER/DORT)."
+            },
+            {
+              "titulo": "Competitividade",
+              "descricao": "habilidade valorizada no mercado de trabalho."
+            }
           ]
         }
       ]
@@ -50,10 +62,22 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Fileira inicial", "descricao": "base para os movimentos dos dedos (ASDF JKLÇ)." },
-            { "titulo": "Fileira superior", "descricao": "contém as teclas QWERTY e outras acima da fileira inicial." },
-            { "titulo": "Fileira inferior", "descricao": "inclui ZXCVB e outras abaixo da fileira inicial." },
-            { "titulo": "Teclado numérico", "descricao": "útil para cálculos rápidos, presente em teclados maiores." }
+            {
+              "titulo": "Fileira inicial",
+              "descricao": "base para os movimentos dos dedos (ASDF JKLÇ)."
+            },
+            {
+              "titulo": "Fileira superior",
+              "descricao": "contém as teclas QWERTY e outras acima da fileira inicial."
+            },
+            {
+              "titulo": "Fileira inferior",
+              "descricao": "inclui ZXCVB e outras abaixo da fileira inicial."
+            },
+            {
+              "titulo": "Teclado numérico",
+              "descricao": "útil para cálculos rápidos, presente em teclados maiores."
+            }
           ]
         },
         {
@@ -107,14 +131,38 @@
         {
           "tipo": "cards",
           "itens": [
-            { "titulo": "Ctrl", "descricao": "usada em atalhos, como Ctrl + C (copiar) e Ctrl + V (colar)." },
-            { "titulo": "Alt", "descricao": "facilita o acesso a menus e atalhos, como Alt + Tab (alternar janelas)." },
-            { "titulo": "Esc", "descricao": "cancela uma ação ou fecha menus e janelas de ajuda." },
-            { "titulo": "Windows", "descricao": "abre o menu Iniciar; com combinações, como ⊞ + D (mostrar área de trabalho)." },
-            { "titulo": "Shift", "descricao": "digita letras maiúsculas ou acessa o caractere superior das teclas duplas (ex.: ! na tecla 1)." },
-            { "titulo": "Caps Lock", "descricao": "alterna entre digitar tudo em maiúsculas ou minúsculas." },
-            { "titulo": "Tab", "descricao": "move o cursor para o próximo campo ou elemento." },
-            { "titulo": "Fn", "descricao": "ativa funções secundárias das teclas (ex.: ajustar brilho ou volume), comum em laptops." }
+            {
+              "titulo": "Ctrl",
+              "descricao": "usada em atalhos, como Ctrl + C (copiar) e Ctrl + V (colar)."
+            },
+            {
+              "titulo": "Alt",
+              "descricao": "facilita o acesso a menus e atalhos, como Alt + Tab (alternar janelas)."
+            },
+            {
+              "titulo": "Esc",
+              "descricao": "cancela uma ação ou fecha menus e janelas de ajuda."
+            },
+            {
+              "titulo": "Windows",
+              "descricao": "abre o menu Iniciar; com combinações, como ⊞ + D (mostrar área de trabalho)."
+            },
+            {
+              "titulo": "Shift",
+              "descricao": "digita letras maiúsculas ou acessa o caractere superior das teclas duplas (ex.: ! na tecla 1)."
+            },
+            {
+              "titulo": "Caps Lock",
+              "descricao": "alterna entre digitar tudo em maiúsculas ou minúsculas."
+            },
+            {
+              "titulo": "Tab",
+              "descricao": "move o cursor para o próximo campo ou elemento."
+            },
+            {
+              "titulo": "Fn",
+              "descricao": "ativa funções secundárias das teclas (ex.: ajustar brilho ou volume), comum em laptops."
+            }
           ]
         },
         {
@@ -151,9 +199,18 @@
         {
           "tipo": "passos",
           "itens": [
-            { "titulo": "Digite padrões repetidos", "descricao": "asdf jklç asdf jklç · qwer uiop qwer uiop · zxcv mnbv zxcv mnbv." },
-            { "titulo": "Não olhe para o teclado", "descricao": "foque em manter as mãos na posição inicial." },
-            { "titulo": "Comece devagar", "descricao": "priorize a precisão antes da velocidade." }
+            {
+              "titulo": "Digite padrões repetidos",
+              "descricao": "asdf jklç asdf jklç · qwer uiop qwer uiop · zxcv mnbv zxcv mnbv."
+            },
+            {
+              "titulo": "Não olhe para o teclado",
+              "descricao": "foque em manter as mãos na posição inicial."
+            },
+            {
+              "titulo": "Comece devagar",
+              "descricao": "priorize a precisão antes da velocidade."
+            }
           ]
         },
         {
