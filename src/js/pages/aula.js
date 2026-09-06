@@ -3,6 +3,7 @@ import { createSidebar } from '../components/sidebar.js';
 import { icons } from '../icons.js';
 import { $, escapeHtml } from '../utils.js';
 import { getAula } from './aulas.js';
+import { getLesson } from './lessons.js';
 
 /** Renderiza um bloco de conteúdo teórico conforme o tipo. */
 function renderBlock(block) {
@@ -72,6 +73,9 @@ export function aulaPage(params) {
     return app;
   }
 
+  const lessonId = params.aulaId.replace(/^c_/, '');
+  const hasExercise = getLesson(lessonId) !== null;
+
   const main = document.createElement('main');
   main.className = 'main-content aula';
   main.innerHTML = `
@@ -107,7 +111,7 @@ export function aulaPage(params) {
 
     <div class="aula__actions">
       <button class="btn btn--secondary" type="button" data-scroll-top>${icons.arrowLeft} Início da página</button>
-      <a class="btn btn--primary" href="#/lessons">${icons.list} Ir para os exercícios</a>
+      <a class="btn btn--primary" href="${hasExercise ? `#/quiz/${encodeURIComponent(lessonId)}` : '#/lessons'}">${icons.list} Ir para os exercícios</a>
     </div>
   `;
 
